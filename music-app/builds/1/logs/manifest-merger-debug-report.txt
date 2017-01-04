@@ -1,0 +1,83 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:1:1-15:12
+	package
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:2:11-46
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:1:11-69
+	android:versionCode
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+application
+ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:4:5-13:19
+MERGED from [music-app:heterogeneousadapter:unspecified] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/music-app/heterogeneousadapter/unspecified/AndroidManifest.xml:11:5-53
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.jakewharton.timber:timber:4.4.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.4.0/AndroidManifest.xml:8:5-20
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.1] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions2/rxpermissions/0.9.1/AndroidManifest.xml:11:5-20
+MERGED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:11:5-17:19
+	android:label
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:7:9-41
+	android:supportsRtl
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:8:9-35
+	android:fullBackupContent
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:11:9-55
+	android:allowBackup
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:5:9-35
+	android:icon
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:6:9-43
+	android:theme
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:9:9-40
+	android:name
+		ADDED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml:10:9-40
+uses-sdk
+INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [music-app:heterogeneousadapter:unspecified] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/music-app/heterogeneousadapter/unspecified/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/cardview-v7/25.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.jakewharton.timber:timber:4.4.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.jakewharton.timber/timber/4.4.0/AndroidManifest.xml:6:5-43
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-components:2.0.1] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.trello.rxlifecycle2/rxlifecycle-components/2.0.1/AndroidManifest.xml:17:5-44
+MERGED from [com.trello.rxlifecycle2:rxlifecycle-android:2.0.1] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.trello.rxlifecycle2/rxlifecycle-android/2.0.1/AndroidManifest.xml:17:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/io.reactivex.rxjava2/rxandroid/2.0.1/AndroidManifest.xml:19:5-43
+MERGED from [com.android.support:appcompat-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.1] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.tbruyelle.rxpermissions2/rxpermissions/0.9.1/AndroidManifest.xml:7:5-9:41
+MERGED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+		INJECTED from /home/travis/build/Khang-NT/music-app/mobile/src/main/AndroidManifest.xml
+provider#net.grandcentrix.tray.provider.TrayContentProvider
+ADDED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:12:9-16:44
+	android:authorities
+		ADDED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:14:13-58
+	android:multiprocess
+		ADDED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:16:13-41
+	android:exported
+		ADDED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [net.grandcentrix.tray:tray:0.11.0] /home/travis/build/Khang-NT/music-app/mobile/build/intermediates/exploded-aar/net.grandcentrix.tray/tray/0.11.0/AndroidManifest.xml:13:13-78
