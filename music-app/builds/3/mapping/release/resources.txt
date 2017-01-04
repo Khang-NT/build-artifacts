@@ -1,0 +1,836 @@
+Resource Reference Graph:
+style:Base_CardView:2131296425 => [dimen:cardview_default_radius:2131230800, dimen:cardview_default_elevation:2131230799, style:CardView:2131296411]
+style:CardView:2131296411 => [style:Base_CardView:2131296425, style:CardView_Dark:2131296465, style:CardView_Light:2131296466]
+style:CardView_Dark:2131296465 => [style:CardView:2131296411, color:cardview_dark_background:2131427347]
+style:CardView_Light:2131296466 => [style:CardView:2131296411, color:cardview_light_background:2131427348]
+anim:abc_grow_fade_in_from_bottom:2131034114 => [integer:abc_config_activityDefaultDur:2131558400, integer:abc_config_activityShortDur:2131558401]
+anim:abc_popup_enter:2131034115 => [integer:abc_config_activityShortDur:2131558401]
+anim:abc_popup_exit:2131034116 => [integer:abc_config_activityShortDur:2131558401]
+anim:abc_shrink_fade_out_from_bottom:2131034117 => [integer:abc_config_activityDefaultDur:2131558400, integer:abc_config_activityShortDur:2131558401]
+color:abc_background_cache_hint_selector_material_dark:2131427394 => [color:background_material_dark:2131427337]
+color:abc_background_cache_hint_selector_material_light:2131427395 => [color:background_material_light:2131427338]
+color:abc_btn_colored_borderless_text_material:2131427396 => [attr:colorAccent:2130772095]
+color:abc_color_highlight_material:2131427398 => [dimen:highlight_alpha_material_colored:2131230803]
+color:abc_hint_foreground_material_dark:2131427399 => [dimen:hint_pressed_alpha_material_dark:2131230808, color:foreground_material_dark:2131427358, dimen:hint_alpha_material_dark:2131230806]
+color:abc_hint_foreground_material_light:2131427400 => [dimen:hint_pressed_alpha_material_light:2131230809, color:foreground_material_light:2131427359, dimen:hint_alpha_material_light:2131230807]
+color:abc_primary_text_disable_only_material_dark:2131427401 => [color:bright_foreground_disabled_material_dark:2131427339, color:bright_foreground_material_dark:2131427343]
+color:abc_primary_text_disable_only_material_light:2131427402 => [color:bright_foreground_disabled_material_light:2131427340, color:bright_foreground_material_light:2131427344]
+color:abc_primary_text_material_dark:2131427403 => [color:primary_text_disabled_material_dark:2131427382, color:primary_text_default_material_dark:2131427380]
+color:abc_primary_text_material_light:2131427404 => [color:primary_text_disabled_material_light:2131427383, color:primary_text_default_material_light:2131427381]
+color:abc_search_url_text:2131427405 => [color:abc_search_url_text_pressed:2131427331, color:abc_search_url_text_selected:2131427332, color:abc_search_url_text_normal:2131427330]
+color:abc_secondary_text_material_dark:2131427406 => [color:secondary_text_disabled_material_dark:2131427388, color:secondary_text_default_material_dark:2131427386]
+color:abc_secondary_text_material_light:2131427407 => [color:secondary_text_disabled_material_light:2131427389, color:secondary_text_default_material_light:2131427387]
+color:abc_tint_btn_checkable:2131427408 => [attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097]
+color:abc_tint_default:2131427409 => [attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097]
+color:abc_tint_edittext:2131427410 => [attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097]
+color:abc_tint_seek_thumb:2131427411 => [attr:colorControlActivated:2130772097]
+color:abc_tint_spinner:2131427412 => [attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097]
+color:abc_tint_switch_thumb:2131427413 => [attr:colorSwitchThumbNormal:2130772100, attr:colorControlActivated:2130772097]
+color:abc_tint_switch_track:2131427414 => [attr:colorControlActivated:2130772097]
+color:accent_material_dark:2131427333 => [color:material_deep_teal_200:2131427365]
+color:accent_material_light:2131427334 => [color:material_deep_teal_500:2131427366]
+color:background_floating_material_dark:2131427335 => [color:material_grey_800:2131427371]
+color:background_material_dark:2131427337 => [color:material_grey_850:2131427372]
+color:background_material_light:2131427338 => [color:material_grey_50:2131427369]
+color:bright_foreground_inverse_material_dark:2131427341 => [color:bright_foreground_material_light:2131427344]
+color:bright_foreground_inverse_material_light:2131427342 => [color:bright_foreground_material_dark:2131427343]
+color:notification_action_color_filter:2131427328 => [color:secondary_text_default_material_light:2131427387]
+color:primary_dark_material_light:2131427377 => [color:material_grey_600:2131427370]
+color:primary_material_dark:2131427378 => [color:material_grey_900:2131427373]
+color:primary_material_light:2131427379 => [color:material_grey_100:2131427367]
+color:switch_thumb_material_dark:2131427415 => [color:switch_thumb_disabled_material_dark:2131427390, color:switch_thumb_normal_material_dark:2131427392]
+color:switch_thumb_material_light:2131427416 => [color:switch_thumb_disabled_material_light:2131427391, color:switch_thumb_normal_material_light:2131427393]
+dimen:abc_button_inset_horizontal_material:2131230752 => [dimen:abc_control_inset_material:2131230758]
+dimen:abc_button_padding_vertical_material:2131230755 => [dimen:abc_control_padding_material:2131230759]
+dimen:abc_list_item_padding_horizontal_material:2131230774 => [dimen:abc_action_bar_content_inset_material:2131230732]
+dimen:notification_media_narrow_margin:2131230740 => [dimen:notification_content_margin_start:2131230738]
+drawable:abc_btn_borderless_material:2130837506 => [drawable:abc_btn_default_mtrl_shape:2130837511]
+drawable:abc_btn_check_material:2130837507 => [drawable:abc_btn_check_to_on_mtrl_015:2130837509, drawable:abc_btn_check_to_on_mtrl_000:2130837508]
+drawable:abc_btn_colored_material:2130837510 => [drawable:abc_btn_default_mtrl_shape:2130837511, dimen:abc_button_inset_vertical_material:2131230753, dimen:abc_button_inset_horizontal_material:2131230752, dimen:abc_control_corner_material:2131230757, dimen:abc_button_padding_vertical_material:2131230755, dimen:abc_button_padding_horizontal_material:2131230754]
+drawable:abc_btn_default_mtrl_shape:2130837511 => [dimen:abc_button_inset_vertical_material:2131230753, dimen:abc_button_inset_horizontal_material:2131230752, dimen:abc_control_corner_material:2131230757, dimen:abc_button_padding_vertical_material:2131230755, dimen:abc_button_padding_horizontal_material:2131230754]
+drawable:abc_btn_radio_material:2130837512 => [drawable:abc_btn_radio_to_on_mtrl_015:2130837514, drawable:abc_btn_radio_to_on_mtrl_000:2130837513]
+drawable:abc_control_background_material:2130837520 => [color:abc_color_highlight_material:2131427398]
+drawable:abc_edit_text_material:2130837522 => [dimen:abc_edit_text_inset_bottom_material:2131230770, dimen:abc_edit_text_inset_horizontal_material:2131230771, dimen:abc_edit_text_inset_top_material:2131230772, drawable:abc_textfield_default_mtrl_alpha:2130837582, drawable:abc_textfield_activated_mtrl_alpha:2130837581, attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097]
+drawable:abc_ic_ab_back_material:2130837523 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_arrow_drop_right_black_24dp:2130837524 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_clear_material:2130837525 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_go_search_api_material:2130837527 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_menu_overflow_material:2130837530 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_search_api_material:2130837534 => [attr:colorControlNormal:2130772096]
+drawable:abc_ic_voice_search_api_material:2130837541 => [attr:colorControlNormal:2130772096]
+drawable:abc_item_background_holo_dark:2130837542 => [drawable:abc_list_selector_disabled_holo_dark:2130837551, drawable:abc_list_selector_background_transition_holo_dark:2130837549, drawable:abc_list_focused_holo:2130837545]
+drawable:abc_item_background_holo_light:2130837543 => [drawable:abc_list_selector_disabled_holo_light:2130837552, drawable:abc_list_selector_background_transition_holo_light:2130837550, drawable:abc_list_focused_holo:2130837545]
+drawable:abc_list_selector_background_transition_holo_dark:2130837549 => [drawable:abc_list_pressed_holo_dark:2130837547, drawable:abc_list_longpressed_holo:2130837546]
+drawable:abc_list_selector_background_transition_holo_light:2130837550 => [drawable:abc_list_pressed_holo_light:2130837548, drawable:abc_list_longpressed_holo:2130837546]
+drawable:abc_list_selector_holo_dark:2130837553 => [drawable:abc_list_selector_disabled_holo_dark:2130837551, drawable:abc_list_selector_background_transition_holo_dark:2130837549, drawable:abc_list_focused_holo:2130837545]
+drawable:abc_list_selector_holo_light:2130837554 => [drawable:abc_list_selector_disabled_holo_light:2130837552, drawable:abc_list_selector_background_transition_holo_light:2130837550, drawable:abc_list_focused_holo:2130837545]
+drawable:abc_ratingbar_indicator_material:2130837557 => [drawable:abc_ic_star_black_36dp:2130837536, drawable:abc_ic_star_half_black_36dp:2130837539]
+drawable:abc_ratingbar_material:2130837558 => [drawable:abc_ic_star_black_48dp:2130837537, drawable:abc_ic_star_half_black_48dp:2130837540]
+drawable:abc_ratingbar_small_material:2130837559 => [drawable:abc_ic_star_black_16dp:2130837535, drawable:abc_ic_star_half_black_16dp:2130837538]
+drawable:abc_seekbar_thumb_material:2130837565 => [drawable:abc_scrubber_control_off_mtrl_alpha:2130837560, drawable:abc_scrubber_control_to_pressed_mtrl_005:2130837562, drawable:abc_scrubber_control_to_pressed_mtrl_000:2130837561]
+drawable:abc_seekbar_tick_mark_material:2130837566 => [dimen:abc_progress_bar_height_material:2131230776]
+drawable:abc_seekbar_track_material:2130837567 => [drawable:abc_scrubber_track_mtrl_alpha:2130837564, drawable:abc_scrubber_primary_mtrl_alpha:2130837563]
+drawable:abc_spinner_textfield_background_material:2130837569 => [dimen:abc_control_inset_material:2131230758, drawable:abc_textfield_default_mtrl_alpha:2130837582, drawable:abc_spinner_mtrl_am_alpha:2130837568, drawable:abc_textfield_activated_mtrl_alpha:2130837581]
+drawable:abc_switch_thumb_material:2130837570 => [drawable:abc_btn_switch_to_on_mtrl_00012:2130837516, drawable:abc_btn_switch_to_on_mtrl_00001:2130837515]
+drawable:abc_tab_indicator_material:2130837572 => [drawable:abc_tab_indicator_mtrl_alpha:2130837573]
+drawable:abc_textfield_search_material:2130837585 => [drawable:abc_textfield_search_activated_mtrl_alpha:2130837583, drawable:abc_textfield_search_default_mtrl_alpha:2130837584]
+drawable:notification_action_background:2130837587 => [color:ripple_material_light:2131427385, drawable:abc_btn_default_mtrl_shape:2130837511]
+drawable:notification_bg:2130837588 => [drawable:notification_bg_normal_pressed:2130837593, drawable:notification_bg_normal:2130837592]
+drawable:notification_bg_low:2130837589 => [drawable:notification_bg_low_pressed:2130837591, drawable:notification_bg_low_normal:2130837590]
+drawable:notification_icon_background:2130837594 => [color:notification_icon_bg_color:2131427374]
+drawable:notification_tile_bg:2130837595 => [drawable:notify_panel_notification_icon_bg:2130837596]
+layout:abc_action_bar_title_item:2130968576 => [style:RtlOverlay_Widget_AppCompat_ActionBar_TitleItem:2131296306, dimen:abc_action_bar_subtitle_top_margin_material:2131230748]
+layout:abc_action_bar_up_container:2130968577 => [attr:actionBarItemBackground:2130772034]
+layout:abc_action_bar_view_list_nav_layout:2130968578 => [attr:actionBarTabBarStyle:2130772023]
+layout:abc_action_menu_item_layout:2130968579 => [attr:actionMenuTextAppearance:2130772035, attr:actionMenuTextColor:2130772036, attr:actionButtonStyle:2130772060]
+layout:abc_action_menu_layout:2130968580 => [attr:actionBarDivider:2130772033]
+layout:abc_action_mode_bar:2130968581 => [attr:actionBarTheme:2130772030, attr:actionModeStyle:2130772037]
+layout:abc_action_mode_close_item_material:2130968582 => [string:abc_action_mode_done:2131165189, attr:actionModeCloseDrawable:2130772041, attr:actionModeCloseButtonStyle:2130772038]
+layout:abc_activity_chooser_view:2130968583 => [attr:activityChooserViewStyle:2130772068, attr:actionBarItemBackground:2130772034]
+layout:abc_activity_chooser_view_list_item:2130968584 => [attr:dropdownListPreferredItemHeight:2130772057, attr:textAppearanceLargePopupMenu:2130772050]
+layout:abc_alert_dialog_button_bar_material:2130968585 => [attr:buttonBarStyle:2130772061, attr:buttonBarNeutralButtonStyle:2130772110, attr:buttonBarNegativeButtonStyle:2130772109, attr:buttonBarPositiveButtonStyle:2130772108]
+layout:abc_alert_dialog_material:2130968586 => [layout:abc_alert_dialog_title_material:2130968587, attr:colorControlHighlight:2130772098, dimen:abc_dialog_padding_top_material:2131230763, attr:dialogPreferredPadding:2130772054, style:TextAppearance_AppCompat_Subhead:2131296493, layout:abc_alert_dialog_button_bar_material:2130968585]
+layout:abc_alert_dialog_title_material:2130968587 => [attr:dialogPreferredPadding:2130772054, dimen:abc_dialog_padding_top_material:2131230763, dimen:abc_dialog_title_divider_material:2131230764]
+layout:abc_dialog_title_material:2130968588 => [attr:dialogPreferredPadding:2130772054, dimen:abc_dialog_padding_top_material:2131230763, layout:abc_screen_content_include:2130968596]
+layout:abc_expanded_menu_layout:2130968589 => [attr:panelMenuListWidth:2130772090]
+layout:abc_list_menu_item_layout:2130968592 => [attr:listPreferredItemHeightSmall:2130772081, attr:listPreferredItemPaddingLeft:2130772083, attr:listPreferredItemPaddingRight:2130772084, attr:textAppearanceListItemSmall:2130772088, id:title:2131492910]
+layout:abc_popup_menu_header_item_layout:2130968594 => [attr:dropdownListPreferredItemHeight:2130772057, attr:textAppearancePopupMenuHeader:2130772052]
+layout:abc_popup_menu_item_layout:2130968595 => [attr:dropdownListPreferredItemHeight:2130772057, style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131296308, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131296309, attr:textAppearanceLargePopupMenu:2130772050, style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131296310, id:title:2131492910, attr:textAppearanceSmallPopupMenu:2130772051]
+layout:abc_screen_content_include:2130968596 => [id:action_bar_activity_content:2131492864]
+layout:abc_screen_simple:2130968597 => [id:action_mode_bar:2131492933, layout:abc_action_mode_bar:2130968581, layout:abc_screen_content_include:2130968596]
+layout:abc_screen_simple_overlay_action_mode:2130968598 => [layout:abc_screen_content_include:2130968596, id:action_mode_bar:2131492933, layout:abc_action_mode_bar:2130968581]
+layout:abc_screen_toolbar:2130968599 => [layout:abc_screen_content_include:2130968596, attr:actionBarStyle:2130772028, string:abc_action_bar_up_description:2131165187, attr:toolbarStyle:2130772069, attr:actionBarTheme:2130772030, attr:actionModeStyle:2130772037]
+layout:abc_search_dropdown_item_icons_2line:2130968600 => [style:RtlOverlay_Widget_AppCompat_Search_DropDown:2131296311, dimen:abc_dropdownitem_icon_width:2131230767, style:RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1:2131296312, attr:selectableItemBackground:2130772063, style:RtlOverlay_Widget_AppCompat_Search_DropDown_Query:2131296314, id:android:icon2:-1, style:RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2:2131296313, attr:textAppearanceSearchResultSubtitle:2130772077, attr:textAppearanceSearchResultTitle:2130772076]
+layout:abc_search_view:2130968601 => [string:abc_searchview_description_search:2131165197, attr:actionButtonStyle:2130772060, dimen:abc_dropdownitem_icon_width:2131230767, style:RtlOverlay_Widget_AppCompat_SearchView_MagIcon:2131296316, id:search_edit_frame:2131492942, dimen:abc_dropdownitem_text_padding_left:2131230768, dimen:abc_dropdownitem_text_padding_right:2131230769, attr:selectableItemBackgroundBorderless:2130772064, string:abc_searchview_description_clear:2131165195, string:abc_searchview_description_submit:2131165198, string:abc_searchview_description_voice:2131165199]
+layout:abc_select_dialog_material:2130968602 => [attr:listDividerAlertDialog:2130772055, dimen:abc_dialog_list_padding_bottom_no_buttons:2131230760, dimen:abc_dialog_list_padding_top_no_title:2131230761, style:Widget_AppCompat_ListView:2131296590]
+layout:notification_action:2130968603 => [style:Widget_AppCompat_NotificationActionContainer:2131296400, dimen:notification_action_icon_size:2131230813, style:Widget_AppCompat_NotificationActionText:2131296401]
+layout:notification_action_tombstone:2130968604 => [style:Widget_AppCompat_NotificationActionContainer:2131296400, dimen:notification_action_icon_size:2131230813, style:Widget_AppCompat_NotificationActionText:2131296401]
+layout:notification_template_big_media:2130968607 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, layout:notification_template_icon_group:2130968612, layout:notification_media_cancel_action:2130968606, id:cancel_action:2131492955, layout:notification_template_lines_media:2130968613, id:media_actions:2131492957]
+layout:notification_template_big_media_custom:2130968608 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, layout:notification_template_icon_group:2130968612, layout:notification_media_cancel_action:2130968606, id:cancel_action:2131492955, dimen:notification_main_column_padding_top:2131230739, dimen:notification_content_margin_start:2131230738, dimen:notification_right_side_padding_top:2131230736, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, id:media_actions:2131492957]
+layout:notification_template_big_media_narrow:2130968609 => [layout:notification_media_cancel_action:2130968606, id:cancel_action:2131492955, layout:notification_template_lines_media:2130968613, id:icon:2131492909, id:media_actions:2131492957]
+layout:notification_template_big_media_narrow_custom:2130968610 => [layout:notification_media_cancel_action:2130968606, id:cancel_action:2131492955, dimen:notification_large_icon_height:2131230816, dimen:notification_main_column_padding_top:2131230739, dimen:notification_media_narrow_margin:2131230740, dimen:notification_right_side_padding_top:2131230736, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, id:icon:2131492909, id:media_actions:2131492957]
+layout:notification_template_custom_big:2130968611 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, dimen:notification_main_column_padding_top:2131230739, dimen:notification_content_margin_start:2131230738, dimen:notification_right_side_padding_top:2131230736, layout:notification_template_part_time:2130968617, layout:notification_template_part_chronometer:2130968616, style:TextAppearance_AppCompat_Notification_Info:2131296394, layout:notification_template_icon_group:2130968612]
+layout:notification_template_icon_group:2130968612 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, dimen:notification_big_circle_margin:2131230815, dimen:notification_right_icon_size:2131230818]
+layout:notification_template_lines_media:2130968613 => [dimen:notification_content_margin_start:2131230738, style:TextAppearance_AppCompat_Notification_Title_Media:2131296399, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Line2_Media:2131296488, style:TextAppearance_AppCompat_Notification_Media:2131296396, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395]
+layout:notification_template_media:2130968614 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, layout:notification_template_icon_group:2130968612, layout:notification_template_lines_media:2130968613, layout:notification_media_cancel_action:2130968606]
+layout:notification_template_media_custom:2130968615 => [dimen:notification_large_icon_height:2131230816, dimen:notification_large_icon_width:2131230817, layout:notification_template_icon_group:2130968612, id:cancel_action:2131492955, dimen:notification_main_column_padding_top:2131230739, dimen:notification_content_margin_start:2131230738, dimen:notification_right_side_padding_top:2131230736, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, layout:notification_media_cancel_action:2130968606]
+layout:notification_template_part_chronometer:2130968616 => [style:TextAppearance_AppCompat_Notification_Time:2131296397]
+layout:notification_template_part_time:2130968617 => [style:TextAppearance_AppCompat_Notification_Time:2131296397]
+layout:select_dialog_item_material:2130968618 => [attr:listPreferredItemHeightSmall:2130772081, attr:listPreferredItemPaddingLeft:2130772083, attr:listPreferredItemPaddingRight:2130772084, attr:textAppearanceListItemSmall:2130772088, attr:textColorAlertDialogListItem:2130772107]
+layout:select_dialog_multichoice_material:2130968619 => [attr:listPreferredItemHeightSmall:2130772081, attr:dialogPreferredPadding:2130772054, dimen:abc_select_dialog_padding_start_material:2131230781, attr:textColorAlertDialogListItem:2130772107]
+layout:select_dialog_singlechoice_material:2130968620 => [attr:listPreferredItemHeightSmall:2130772081, attr:dialogPreferredPadding:2130772054, dimen:abc_select_dialog_padding_start_material:2131230781, attr:textColorAlertDialogListItem:2130772107]
+layout:support_simple_spinner_dropdown_item:2130968621 => [attr:dropdownListPreferredItemHeight:2130772057, attr:spinnerDropDownItemStyle:2130772058]
+style:AlertDialog_AppCompat:2131296416 => [style:Base_AlertDialog_AppCompat:2131296421]
+style:AlertDialog_AppCompat_Light:2131296417 => [style:Base_AlertDialog_AppCompat_Light:2131296422]
+style:Animation_AppCompat_Dialog:2131296418 => [style:Base_Animation_AppCompat_Dialog:2131296423]
+style:Animation_AppCompat_DropDownUp:2131296419 => [style:Base_Animation_AppCompat_DropDownUp:2131296424]
+style:Base_AlertDialog_AppCompat:2131296421 => [style:AlertDialog_AppCompat:2131296416, layout:abc_alert_dialog_material:2130968586, layout:abc_select_dialog_material:2130968602, layout:select_dialog_item_material:2130968618, layout:select_dialog_multichoice_material:2130968619, layout:select_dialog_singlechoice_material:2130968620, style:Base_AlertDialog_AppCompat_Light:2131296422]
+style:Base_AlertDialog_AppCompat_Light:2131296422 => [style:AlertDialog_AppCompat_Light:2131296417, style:Base_AlertDialog_AppCompat:2131296421]
+style:Base_Animation_AppCompat_Dialog:2131296423 => [style:Animation_AppCompat_Dialog:2131296418, anim:abc_popup_enter:2131034115, anim:abc_popup_exit:2131034116]
+style:Base_Animation_AppCompat_DropDownUp:2131296424 => [style:Animation_AppCompat_DropDownUp:2131296419, anim:abc_grow_fade_in_from_bottom:2131034114, anim:abc_shrink_fade_out_from_bottom:2131034117]
+style:Base_DialogWindowTitleBackground_AppCompat:2131296427 => [attr:dialogPreferredPadding:2130772054, dimen:abc_dialog_padding_top_material:2131230763]
+style:Base_DialogWindowTitle_AppCompat:2131296426 => [style:RtlOverlay_DialogWindowTitle_AppCompat:2131296305, style:TextAppearance_AppCompat_Title:2131296495]
+style:Base_TextAppearance_AppCompat:2131296319 => [attr:android_textColorPrimary:-1, attr:android_textColorHint:-1, attr:android_textColorHighlight:-1, attr:android_textColorLink:-1, dimen:abc_text_size_body_1_material:2131230782, style:Base_TextAppearance_AppCompat_Body1:2131296320, style:Base_TextAppearance_AppCompat_Body2:2131296321, style:Base_TextAppearance_AppCompat_Button:2131296295, style:Base_TextAppearance_AppCompat_Caption:2131296322, style:Base_TextAppearance_AppCompat_Display1:2131296323, style:Base_TextAppearance_AppCompat_Display2:2131296324, style:Base_TextAppearance_AppCompat_Display3:2131296325, style:Base_TextAppearance_AppCompat_Display4:2131296326, style:Base_TextAppearance_AppCompat_Headline:2131296327, style:Base_TextAppearance_AppCompat_Inverse:2131296267, style:Base_TextAppearance_AppCompat_Large:2131296328, style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268, style:Base_TextAppearance_AppCompat_Medium:2131296331, style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269, style:Base_TextAppearance_AppCompat_Menu:2131296332, style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333, style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334, style:Base_TextAppearance_AppCompat_Small:2131296335, style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270, style:Base_TextAppearance_AppCompat_Subhead:2131296336, style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271, style:Base_TextAppearance_AppCompat_Title:2131296337, style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272, style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413, style:TextAppearance_AppCompat:2131296467]
+style:Base_TextAppearance_AppCompat_Body1:2131296320 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_body_1_material:2131230782, attr:android_textColorPrimary:-1, style:TextAppearance_AppCompat_Body1:2131296468]
+style:Base_TextAppearance_AppCompat_Body2:2131296321 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_body_2_material:2131230783, attr:android_textColorPrimary:-1, style:TextAppearance_AppCompat_Body2:2131296469]
+style:Base_TextAppearance_AppCompat_Button:2131296295 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_button_material:2131230784, attr:android_textColorPrimary:-1, style:TextAppearance_AppCompat_Button:2131296470]
+style:Base_TextAppearance_AppCompat_Caption:2131296322 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_caption_material:2131230785, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_Caption:2131296471]
+style:Base_TextAppearance_AppCompat_Display1:2131296323 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_display_1_material:2131230786, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_Display1:2131296472]
+style:Base_TextAppearance_AppCompat_Display2:2131296324 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_display_2_material:2131230787, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_Display2:2131296473]
+style:Base_TextAppearance_AppCompat_Display3:2131296325 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_display_3_material:2131230788, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_Display3:2131296474]
+style:Base_TextAppearance_AppCompat_Display4:2131296326 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_display_4_material:2131230789, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_Display4:2131296475]
+style:Base_TextAppearance_AppCompat_Headline:2131296327 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_headline_material:2131230790, attr:android_textColorPrimary:-1, style:TextAppearance_AppCompat_Headline:2131296476]
+style:Base_TextAppearance_AppCompat_Inverse:2131296267 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Inverse:2131296477]
+style:Base_TextAppearance_AppCompat_Large:2131296328 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_large_material:2131230791, style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268, style:TextAppearance_AppCompat_Large:2131296478]
+style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268 => [style:Base_TextAppearance_AppCompat_Large:2131296328, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Large_Inverse:2131296479]
+style:Base_TextAppearance_AppCompat_Medium:2131296331 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_medium_material:2131230792, style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269, style:TextAppearance_AppCompat_Medium:2131296484]
+style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269 => [style:Base_TextAppearance_AppCompat_Medium:2131296331, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Medium_Inverse:2131296485]
+style:Base_TextAppearance_AppCompat_Menu:2131296332 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_menu_material:2131230794, attr:android_textColorPrimary:-1, style:TextAppearance_AppCompat_Menu:2131296486]
+style:Base_TextAppearance_AppCompat_SearchResult:2131296428 => [attr:android_textColorPrimary:-1, attr:android_textColorHint:-1, style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333, style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334]
+style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333 => [style:Base_TextAppearance_AppCompat_SearchResult:2131296428, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, attr:android_textColorSecondary:-1, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131296489]
+style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334 => [style:Base_TextAppearance_AppCompat_SearchResult:2131296428, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_SearchResult_Title:2131296490]
+style:Base_TextAppearance_AppCompat_Small:2131296335 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_small_material:2131230795, style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270, style:TextAppearance_AppCompat_Small:2131296491]
+style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270 => [style:Base_TextAppearance_AppCompat_Small:2131296335, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Small_Inverse:2131296492]
+style:Base_TextAppearance_AppCompat_Subhead:2131296336 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_subhead_material:2131230796, attr:android_textColorPrimary:-1, style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271, style:TextAppearance_AppCompat_Subhead:2131296493]
+style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271 => [style:Base_TextAppearance_AppCompat_Subhead:2131296336, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Subhead_Inverse:2131296494]
+style:Base_TextAppearance_AppCompat_Title:2131296337 => [style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, dimen:abc_text_size_title_material:2131230797, attr:android_textColorPrimary:-1, style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272, style:TextAppearance_AppCompat_Title:2131296495]
+style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272 => [style:Base_TextAppearance_AppCompat_Title:2131296337, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, style:TextAppearance_AppCompat_Title_Inverse:2131296496]
+style:Base_TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296404 => [style:TextAppearance_AppCompat_Button:2131296470, attr:actionMenuTextColor:2130772036, bool:abc_config_actionMenuItemAllCaps:2131361794, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296497]
+style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296338 => [style:TextAppearance_AppCompat_Subhead:2131296493, dimen:abc_text_size_subtitle_material_toolbar:2131230723, style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296498]
+style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296339 => [style:TextAppearance_AppCompat_Subhead_Inverse:2131296494, dimen:abc_text_size_subtitle_material_toolbar:2131230723, style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296499]
+style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title:2131296340 => [style:TextAppearance_AppCompat_Title:2131296495, dimen:abc_text_size_title_material_toolbar:2131230724, style:TextAppearance_AppCompat_Widget_ActionBar_Title:2131296500]
+style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296341 => [style:TextAppearance_AppCompat_Title_Inverse:2131296496, dimen:abc_text_size_title_material_toolbar:2131230724, style:TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296501]
+style:Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296342 => [style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296498, style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296502]
+style:Base_TextAppearance_AppCompat_Widget_ActionMode_Title:2131296343 => [style:TextAppearance_AppCompat_Widget_ActionBar_Title:2131296500, style:TextAppearance_AppCompat_Widget_ActionMode_Title:2131296504]
+style:Base_TextAppearance_AppCompat_Widget_Button:2131296344 => [style:TextAppearance_AppCompat_Button:2131296470, style:Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296412, style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413, style:TextAppearance_AppCompat_Widget_Button:2131296506]
+style:Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296412 => [style:Base_TextAppearance_AppCompat_Widget_Button:2131296344, color:abc_btn_colored_borderless_text_material:2131427396, style:TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296507]
+style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413 => [style:Base_TextAppearance_AppCompat_Widget_Button:2131296344, style:Base_TextAppearance_AppCompat_Widget:-1, style:Base_TextAppearance_AppCompat:2131296319, style:Base_TextAppearance:-1, style:Base:-1, color:abc_btn_colored_text_material:2131427397, style:TextAppearance_AppCompat_Widget_Button_Colored:2131296508]
+style:Base_TextAppearance_AppCompat_Widget_Button_Inverse:2131296405 => [style:TextAppearance_AppCompat_Button:2131296470, attr:android_textColorPrimaryInverse:-1, style:TextAppearance_AppCompat_Widget_Button_Inverse:2131296509]
+style:Base_TextAppearance_AppCompat_Widget_DropDownItem:2131296429 => [style:TextAppearance_AppCompat_Widget_DropDownItem:2131296510]
+style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296345 => [style:TextAppearance_AppCompat:2131296467, dimen:abc_text_size_menu_header_material:2131230793, attr:colorAccent:2130772095, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296511, string:abc_font_family_title_material:2131165216]
+style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296346 => [style:TextAppearance_AppCompat_Menu:2131296486, style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296512]
+style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296347 => [style:TextAppearance_AppCompat_Menu:2131296486, style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296513]
+style:Base_TextAppearance_AppCompat_Widget_Switch:2131296348 => [style:TextAppearance_AppCompat_Button:2131296470, style:TextAppearance_AppCompat_Widget_Switch:2131296514]
+style:Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296349 => [style:TextAppearance_AppCompat_Menu:2131296486, style:TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296515]
+style:Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item:2131296430 => [style:TextAppearance_Widget_AppCompat_ExpandedMenu_Item:2131296516]
+style:Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296350 => [style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296498, style:TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296517]
+style:Base_TextAppearance_Widget_AppCompat_Toolbar_Title:2131296351 => [style:TextAppearance_AppCompat_Widget_ActionBar_Title:2131296500, style:TextAppearance_Widget_AppCompat_Toolbar_Title:2131296518]
+style:Base_ThemeOverlay_AppCompat:2131296435 => [style:Platform_ThemeOverlay_AppCompat:2131296389, style:Base_ThemeOverlay_AppCompat_ActionBar:2131296436, style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438, style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280, style:Base_V7_ThemeOverlay_AppCompat_Dialog:2131296444, style:ThemeOverlay_AppCompat:2131296533]
+style:Base_ThemeOverlay_AppCompat_ActionBar:2131296436 => [style:Base_ThemeOverlay_AppCompat:2131296435, style:Base_ThemeOverlay:-1, style:Base:-1, style:Widget_AppCompat_SearchView_ActionBar:2131296602, style:ThemeOverlay_AppCompat_ActionBar:2131296534]
+style:Base_ThemeOverlay_AppCompat_Dark:2131296437 => [style:Platform_ThemeOverlay_AppCompat_Dark:2131296390, color:background_material_dark:2131427337, color:foreground_material_dark:2131427358, color:foreground_material_light:2131427359, color:abc_background_cache_hint_selector_material_dark:2131427394, color:background_floating_material_dark:2131427335, color:abc_primary_text_material_dark:2131427403, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_secondary_text_material_dark:2131427406, color:abc_secondary_text_material_light:2131427407, color:abc_hint_foreground_material_dark:2131427399, color:abc_hint_foreground_material_light:2131427400, color:highlighted_text_material_dark:2131427360, color:ripple_material_dark:2131427384, color:button_material_dark:2131427345, color:switch_thumb_material_dark:2131427415, style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438, style:ThemeOverlay_AppCompat_Dark:2131296535]
+style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438 => [style:Base_ThemeOverlay_AppCompat_Dark:2131296437, style:Base_ThemeOverlay_AppCompat:2131296435, style:Base_ThemeOverlay:-1, style:Base:-1, style:Widget_AppCompat_SearchView_ActionBar:2131296602, style:ThemeOverlay_AppCompat_Dark_ActionBar:2131296536]
+style:Base_ThemeOverlay_AppCompat_Dialog:2131296279 => [style:Base_V7_ThemeOverlay_AppCompat_Dialog:2131296444, style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280, style:ThemeOverlay_AppCompat_Dialog:2131296537, style:Base_V11_ThemeOverlay_AppCompat_Dialog:2131296283, style:Base_V21_ThemeOverlay_AppCompat_Dialog:2131296358]
+style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280 => [style:Base_ThemeOverlay_AppCompat_Dialog:2131296279, style:Base_ThemeOverlay_AppCompat:2131296435, style:Base_ThemeOverlay:-1, style:Base:-1, dimen:abc_dialog_min_width_major:2131230730, dimen:abc_dialog_min_width_minor:2131230731, style:ThemeOverlay_AppCompat_Dialog_Alert:2131296538]
+style:Base_ThemeOverlay_AppCompat_Light:2131296439 => [style:Platform_ThemeOverlay_AppCompat_Light:2131296391, color:background_material_light:2131427338, color:foreground_material_light:2131427359, color:foreground_material_dark:2131427358, color:abc_background_cache_hint_selector_material_light:2131427395, color:background_floating_material_light:2131427336, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_material_dark:2131427403, color:abc_secondary_text_material_light:2131427407, color:abc_secondary_text_material_dark:2131427406, color:abc_primary_text_disable_only_material_light:2131427402, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_hint_foreground_material_light:2131427400, color:abc_hint_foreground_material_dark:2131427399, color:highlighted_text_material_light:2131427361, color:ripple_material_light:2131427385, color:button_material_light:2131427346, color:switch_thumb_material_light:2131427416, style:ThemeOverlay_AppCompat_Light:2131296539]
+style:Base_Theme_AppCompat:2131296352 => [style:Base_V7_Theme_AppCompat:2131296440, style:Base_Theme_AppCompat_Dialog_Alert:2131296274, style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432, style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277, style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278, style:Base_V7_Theme_AppCompat_Dialog:2131296441, style:Theme_AppCompat:2131296519, style:Base_V23_Theme_AppCompat:2131296406, style:Base_V22_Theme_AppCompat:2131296402, style:Base_V21_Theme_AppCompat:2131296354]
+style:Base_Theme_AppCompat_CompactMenu:2131296431 => [style:Widget_AppCompat_ListView_Menu:2131296592, style:Animation_AppCompat_DropDownUp:2131296419, style:Theme_AppCompat_CompactMenu:2131296520]
+style:Base_Theme_AppCompat_Dialog:2131296273 => [style:Base_V7_Theme_AppCompat_Dialog:2131296441, style:Base_Theme_AppCompat_Dialog_Alert:2131296274, style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432, style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275, style:Theme_AppCompat_Dialog:2131296521, style:Base_V11_Theme_AppCompat_Dialog:2131296281, style:Base_V21_Theme_AppCompat_Dialog:2131296355]
+style:Base_Theme_AppCompat_DialogWhenLarge:2131296257 => [style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432, style:Theme_AppCompat:2131296519, style:Theme_AppCompat_DialogWhenLarge:2131296524]
+style:Base_Theme_AppCompat_Dialog_Alert:2131296274 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_min_width_major:2131230730, dimen:abc_dialog_min_width_minor:2131230731, style:Theme_AppCompat_Dialog_Alert:2131296522]
+style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432 => [style:Base_Theme_AppCompat_DialogWhenLarge:2131296257, style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_fixed_width_major:2131230728, dimen:abc_dialog_fixed_width_minor:2131230729, dimen:abc_dialog_fixed_height_major:2131230726, dimen:abc_dialog_fixed_height_minor:2131230727]
+style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_min_width_major:2131230730, dimen:abc_dialog_min_width_minor:2131230731, style:Theme_AppCompat_Dialog_MinWidth:2131296523]
+style:Base_Theme_AppCompat_Light:2131296353 => [style:Base_V7_Theme_AppCompat_Light:2131296442, style:Base_Theme_AppCompat_Light_DarkActionBar:2131296433, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277, style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278, style:Base_V7_Theme_AppCompat_Light_Dialog:2131296443, style:Theme_AppCompat_Light:2131296525, style:Base_V23_Theme_AppCompat_Light:2131296407, style:Base_V22_Theme_AppCompat_Light:2131296403, style:Base_V21_Theme_AppCompat_Light:2131296356]
+style:Base_Theme_AppCompat_Light_DarkActionBar:2131296433 => [style:Base_Theme_AppCompat_Light:2131296353, style:ThemeOverlay_AppCompat_Light:2131296539, style:ThemeOverlay_AppCompat_Dark_ActionBar:2131296536, drawable:abc_list_selector_holo_dark:2130837553, color:primary_dark_material_dark:2131427376, color:primary_material_dark:2131427378, style:Theme_AppCompat_Light_DarkActionBar:2131296526]
+style:Base_Theme_AppCompat_Light_Dialog:2131296276 => [style:Base_V7_Theme_AppCompat_Light_Dialog:2131296443, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277, style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278, style:Theme_AppCompat_Light_Dialog:2131296527, style:Base_V11_Theme_AppCompat_Light_Dialog:2131296282, style:Base_V21_Theme_AppCompat_Light_Dialog:2131296357]
+style:Base_Theme_AppCompat_Light_DialogWhenLarge:2131296258 => [style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Theme_AppCompat_Light:2131296525, style:Theme_AppCompat_Light_DialogWhenLarge:2131296530]
+style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277 => [style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_Theme_AppCompat_Light:2131296353, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_min_width_major:2131230730, dimen:abc_dialog_min_width_minor:2131230731, style:Theme_AppCompat_Light_Dialog_Alert:2131296528]
+style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434 => [style:Base_Theme_AppCompat_Light_DialogWhenLarge:2131296258, style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_Theme_AppCompat_Light:2131296353, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_fixed_width_major:2131230728, dimen:abc_dialog_fixed_width_minor:2131230729, dimen:abc_dialog_fixed_height_major:2131230726, dimen:abc_dialog_fixed_height_minor:2131230727]
+style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278 => [style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_Theme_AppCompat_Light:2131296353, style:Base_Theme_AppCompat:2131296352, style:Base_Theme:-1, style:Base:-1, dimen:abc_dialog_min_width_major:2131230730, dimen:abc_dialog_min_width_minor:2131230731, style:Theme_AppCompat_Light_Dialog_MinWidth:2131296529]
+style:Base_V11_ThemeOverlay_AppCompat_Dialog:2131296283 => [style:Base_ThemeOverlay_AppCompat_Dialog:2131296279, style:Base_V7_ThemeOverlay_AppCompat_Dialog:2131296444, style:Widget_AppCompat_ButtonBar_AlertDialog:2131296558, style:Widget_AppCompat_Button_Borderless:2131296552, bool:abc_config_closeDialogWhenTouchOutside:2131361795, style:Base_V21_ThemeOverlay_AppCompat_Dialog:2131296358]
+style:Base_V11_Theme_AppCompat_Dialog:2131296281 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_V7_Theme_AppCompat_Dialog:2131296441, style:Widget_AppCompat_ButtonBar_AlertDialog:2131296558, style:Widget_AppCompat_Button_Borderless:2131296552, bool:abc_config_closeDialogWhenTouchOutside:2131361795, style:Base_V21_Theme_AppCompat_Dialog:2131296355]
+style:Base_V11_Theme_AppCompat_Light_Dialog:2131296282 => [style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_V7_Theme_AppCompat_Light_Dialog:2131296443, style:Widget_AppCompat_ButtonBar_AlertDialog:2131296558, style:Widget_AppCompat_Button_Borderless:2131296552, bool:abc_config_closeDialogWhenTouchOutside:2131361795, style:Base_V21_Theme_AppCompat_Light_Dialog:2131296357]
+style:Base_V12_Widget_AppCompat_AutoCompleteTextView:2131296291 => [style:Base_V7_Widget_AppCompat_AutoCompleteTextView:2131296445, drawable:abc_text_cursor_material:2130837574, style:Base_Widget_AppCompat_AutoCompleteTextView:2131296293]
+style:Base_V12_Widget_AppCompat_EditText:2131296292 => [style:Base_V7_Widget_AppCompat_EditText:2131296446, drawable:abc_text_cursor_material:2130837574, style:Base_Widget_AppCompat_EditText:2131296294]
+style:Base_V21_ThemeOverlay_AppCompat_Dialog:2131296358 => [style:Base_ThemeOverlay_AppCompat_Dialog:2131296279, style:Base_V11_ThemeOverlay_AppCompat_Dialog:2131296283, dimen:abc_floating_window_z:2131230773]
+style:Base_V21_Theme_AppCompat:2131296354 => [style:Base_V22_Theme_AppCompat:2131296402, style:Base_Theme_AppCompat:2131296352, style:Base_V7_Theme_AppCompat:2131296440, drawable:abc_action_bar_item_background_material:2130837505, attr:android_borderlessButtonStyle:-1, drawable:abc_edit_text_material:2130837522, attr:colorPrimary:2130772093, attr:colorPrimaryDark:2130772094, attr:colorAccent:2130772095, attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097, attr:colorControlHighlight:2130772098, attr:colorButtonNormal:2130772099]
+style:Base_V21_Theme_AppCompat_Dialog:2131296355 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_V11_Theme_AppCompat_Dialog:2131296281, dimen:abc_floating_window_z:2131230773]
+style:Base_V21_Theme_AppCompat_Light:2131296356 => [style:Base_V22_Theme_AppCompat_Light:2131296403, style:Base_Theme_AppCompat_Light:2131296353, style:Base_V7_Theme_AppCompat_Light:2131296442, drawable:abc_action_bar_item_background_material:2130837505, attr:android_borderlessButtonStyle:-1, drawable:abc_edit_text_material:2130837522, attr:colorPrimary:2130772093, attr:colorPrimaryDark:2130772094, attr:colorAccent:2130772095, attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097, attr:colorControlHighlight:2130772098, attr:colorButtonNormal:2130772099]
+style:Base_V21_Theme_AppCompat_Light_Dialog:2131296357 => [style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_V11_Theme_AppCompat_Light_Dialog:2131296282, dimen:abc_floating_window_z:2131230773]
+style:Base_V22_Theme_AppCompat:2131296402 => [style:Base_V23_Theme_AppCompat:2131296406, style:Base_Theme_AppCompat:2131296352, style:Base_V21_Theme_AppCompat:2131296354]
+style:Base_V22_Theme_AppCompat_Light:2131296403 => [style:Base_V23_Theme_AppCompat_Light:2131296407, style:Base_Theme_AppCompat_Light:2131296353, style:Base_V21_Theme_AppCompat_Light:2131296356]
+style:Base_V23_Theme_AppCompat:2131296406 => [style:Base_Theme_AppCompat:2131296352, style:Base_V22_Theme_AppCompat:2131296402, drawable:abc_control_background_material:2130837520]
+style:Base_V23_Theme_AppCompat_Light:2131296407 => [style:Base_Theme_AppCompat_Light:2131296353, style:Base_V22_Theme_AppCompat_Light:2131296403, drawable:abc_control_background_material:2130837520]
+style:Base_V7_ThemeOverlay_AppCompat_Dialog:2131296444 => [style:Base_ThemeOverlay_AppCompat_Dialog:2131296279, style:Base_ThemeOverlay_AppCompat:2131296435, attr:colorBackgroundFloating:2130772102, style:RtlOverlay_DialogWindowTitle_AppCompat:2131296305, style:Base_DialogWindowTitleBackground_AppCompat:2131296427, drawable:abc_dialog_material_background:2130837521, style:Animation_AppCompat_Dialog:2131296418, style:Base_V11_ThemeOverlay_AppCompat_Dialog:2131296283]
+style:Base_V7_Theme_AppCompat:2131296440 => [style:Base_Theme_AppCompat:2131296352, style:Platform_AppCompat:2131296286, color:background_floating_material_dark:2131427335, drawable:abc_item_background_holo_dark:2130837542, attr:selectableItemBackground:2130772063, style:Widget_AppCompat_Button_Borderless:2131296552, drawable:abc_ic_ab_back_material:2130837523, drawable:abc_list_divider_mtrl_alpha:2130837544, style:Widget_AppCompat_ActionBar_TabView:2131296544, style:Widget_AppCompat_ActionBar_TabBar:2131296542, style:Widget_AppCompat_ActionBar_TabText:2131296543, style:Widget_AppCompat_ActionButton:2131296545, style:Widget_AppCompat_ActionButton_Overflow:2131296547, style:Widget_AppCompat_PopupMenu_Overflow:2131296594, style:Widget_AppCompat_ActionBar_Solid:2131296541, attr:actionBarStyle:2130772028, style:ThemeOverlay_AppCompat_ActionBar:2131296534, dimen:abc_action_bar_default_height_material:2131230721, attr:dividerVertical:2130772066, attr:selectableItemBackgroundBorderless:2130772064, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296497, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607, style:Widget_AppCompat_ActionMode:2131296548, drawable:abc_cab_background_top_material:2130837518, attr:colorPrimaryDark:2130772094, style:Widget_AppCompat_ActionButton_CloseMode:2131296546, drawable:abc_ic_menu_cut_mtrl_alpha:2130837529, drawable:abc_ic_menu_copy_mtrl_am_alpha:2130837528, drawable:abc_ic_menu_paste_mtrl_am_alpha:2130837531, drawable:abc_ic_menu_selectall_mtrl_alpha:2130837532, drawable:abc_ic_menu_share_mtrl_alpha:2130837533, dimen:abc_panel_menu_list_width:2131230775, style:Theme_AppCompat_CompactMenu:2131296520, drawable:abc_menu_hardkey_panel_mtrl_mult:2130837555, drawable:abc_list_selector_holo_dark:2130837553, style:TextAppearance_AppCompat_Subhead:2131296493, dimen:abc_list_item_padding_horizontal_material:2131230774, style:Widget_AppCompat_Spinner:2131296605, style:Widget_AppCompat_TextView_SpinnerItem:2131296609, style:Widget_AppCompat_ListView_DropDown:2131296591, style:Widget_AppCompat_DropDownItem_Spinner:2131296563, attr:listPreferredItemHeightSmall:2130772081, style:Widget_AppCompat_PopupMenu:2131296593, style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296512, style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296513, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296511, style:Widget_AppCompat_ListPopupWindow:2131296589, style:Widget_AppCompat_ListMenuView:2131296588, style:Widget_AppCompat_SearchView:2131296601, color:abc_search_url_text:2131427405, style:TextAppearance_AppCompat_SearchResult_Title:2131296490, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131296489, style:Widget_AppCompat_ActivityChooserView:2131296549, style:Widget_AppCompat_Toolbar:2131296610, style:Widget_AppCompat_Toolbar_Button_Navigation:2131296611, style:Widget_AppCompat_EditText:2131296564, drawable:abc_edit_text_material:2130837522, style:Widget_AppCompat_AutoCompleteTextView:2131296550, color:primary_dark_material_dark:2131427376, color:primary_material_dark:2131427378, color:accent_material_dark:2131427333, attr:colorAccent:2130772095, color:ripple_material_dark:2131427384, color:button_material_dark:2131427345, color:switch_thumb_material_dark:2131427415, style:Widget_AppCompat_DrawerArrowToggle:2131296562, style:Widget_AppCompat_CompoundButton_CheckBox:2131296559, style:Widget_AppCompat_CompoundButton_RadioButton:2131296560, style:Widget_AppCompat_CompoundButton_Switch:2131296561, style:Widget_AppCompat_RatingBar:2131296598, style:Widget_AppCompat_RatingBar_Indicator:2131296599, style:Widget_AppCompat_RatingBar_Small:2131296600, style:Widget_AppCompat_SeekBar:2131296603, style:Widget_AppCompat_Button:2131296551, style:Widget_AppCompat_Button_Small:2131296556, style:TextAppearance_AppCompat_Widget_Button:2131296506, style:Widget_AppCompat_ImageButton:2131296565, style:Widget_AppCompat_ButtonBar:2131296557, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296554, attr:buttonBarButtonStyle:2130772062, style:ThemeOverlay_AppCompat_Dialog:2131296537, dimen:abc_dialog_padding_material:2131230762, style:ThemeOverlay_AppCompat_Dialog_Alert:2131296538, style:AlertDialog_AppCompat:2131296416, color:abc_primary_text_material_dark:2131427403, style:Base_V21_Theme_AppCompat:2131296354]
+style:Base_V7_Theme_AppCompat_Dialog:2131296441 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Base_Theme_AppCompat:2131296352, attr:colorBackgroundFloating:2130772102, style:RtlOverlay_DialogWindowTitle_AppCompat:2131296305, style:Base_DialogWindowTitleBackground_AppCompat:2131296427, drawable:abc_dialog_material_background:2130837521, style:Animation_AppCompat_Dialog:2131296418, style:Base_V11_Theme_AppCompat_Dialog:2131296281]
+style:Base_V7_Theme_AppCompat_Light:2131296442 => [style:Base_Theme_AppCompat_Light:2131296353, style:Platform_AppCompat_Light:2131296287, color:background_floating_material_light:2131427336, drawable:abc_item_background_holo_light:2130837543, attr:selectableItemBackground:2130772063, style:Widget_AppCompat_Button_Borderless:2131296552, drawable:abc_ic_ab_back_material:2130837523, drawable:abc_list_divider_mtrl_alpha:2130837544, style:Widget_AppCompat_Light_ActionBar_TabView:2131296573, style:Widget_AppCompat_Light_ActionBar_TabBar:2131296569, style:Widget_AppCompat_Light_ActionBar_TabText:2131296571, style:Widget_AppCompat_Light_ActionButton:2131296575, style:Widget_AppCompat_Light_ActionButton_Overflow:2131296577, style:Widget_AppCompat_Light_PopupMenu_Overflow:2131296585, style:Widget_AppCompat_Light_ActionBar_Solid:2131296567, attr:actionBarStyle:2130772028, style:ThemeOverlay_AppCompat_ActionBar:2131296534, dimen:abc_action_bar_default_height_material:2131230721, attr:dividerVertical:2130772066, attr:selectableItemBackgroundBorderless:2130772064, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296497, style:Widget_AppCompat_ActionMode:2131296548, drawable:abc_cab_background_top_material:2130837518, attr:colorPrimaryDark:2130772094, style:Widget_AppCompat_ActionButton_CloseMode:2131296546, drawable:abc_ic_menu_cut_mtrl_alpha:2130837529, drawable:abc_ic_menu_copy_mtrl_am_alpha:2130837528, drawable:abc_ic_menu_paste_mtrl_am_alpha:2130837531, drawable:abc_ic_menu_selectall_mtrl_alpha:2130837532, drawable:abc_ic_menu_share_mtrl_alpha:2130837533, style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131296587, dimen:abc_panel_menu_list_width:2131230775, style:Theme_AppCompat_CompactMenu:2131296520, drawable:abc_menu_hardkey_panel_mtrl_mult:2130837555, drawable:abc_list_selector_holo_light:2130837554, style:TextAppearance_AppCompat_Subhead:2131296493, dimen:abc_list_item_padding_horizontal_material:2131230774, style:Widget_AppCompat_Spinner:2131296605, style:Widget_AppCompat_TextView_SpinnerItem:2131296609, style:Widget_AppCompat_ListView_DropDown:2131296591, style:Widget_AppCompat_DropDownItem_Spinner:2131296563, attr:listPreferredItemHeightSmall:2130772081, style:Widget_AppCompat_Light_PopupMenu:2131296584, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131296482, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131296483, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296511, style:Widget_AppCompat_ListPopupWindow:2131296589, style:Widget_AppCompat_ListMenuView:2131296588, style:Widget_AppCompat_Light_SearchView:2131296586, color:abc_search_url_text:2131427405, style:TextAppearance_AppCompat_SearchResult_Title:2131296490, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131296489, style:Widget_AppCompat_ActivityChooserView:2131296549, style:Widget_AppCompat_Toolbar:2131296610, style:Widget_AppCompat_Toolbar_Button_Navigation:2131296611, style:Widget_AppCompat_EditText:2131296564, drawable:abc_edit_text_material:2130837522, style:Widget_AppCompat_AutoCompleteTextView:2131296550, color:primary_dark_material_light:2131427377, color:primary_material_light:2131427379, color:accent_material_light:2131427334, attr:colorAccent:2130772095, color:ripple_material_light:2131427385, color:button_material_light:2131427346, color:switch_thumb_material_light:2131427416, style:Widget_AppCompat_DrawerArrowToggle:2131296562, style:Widget_AppCompat_CompoundButton_CheckBox:2131296559, style:Widget_AppCompat_CompoundButton_RadioButton:2131296560, style:Widget_AppCompat_CompoundButton_Switch:2131296561, style:Widget_AppCompat_RatingBar:2131296598, style:Widget_AppCompat_RatingBar_Indicator:2131296599, style:Widget_AppCompat_RatingBar_Small:2131296600, style:Widget_AppCompat_SeekBar:2131296603, style:Widget_AppCompat_Button:2131296551, style:Widget_AppCompat_Button_Small:2131296556, style:TextAppearance_AppCompat_Widget_Button:2131296506, style:Widget_AppCompat_ImageButton:2131296565, style:Widget_AppCompat_ButtonBar:2131296557, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296554, attr:buttonBarButtonStyle:2130772062, style:ThemeOverlay_AppCompat_Dialog:2131296537, dimen:abc_dialog_padding_material:2131230762, style:ThemeOverlay_AppCompat_Dialog_Alert:2131296538, style:AlertDialog_AppCompat_Light:2131296417, color:abc_primary_text_material_light:2131427404, style:Base_V21_Theme_AppCompat_Light:2131296356]
+style:Base_V7_Theme_AppCompat_Light_Dialog:2131296443 => [style:Base_Theme_AppCompat_Light_Dialog:2131296276, style:Base_Theme_AppCompat_Light:2131296353, attr:colorBackgroundFloating:2130772102, style:RtlOverlay_DialogWindowTitle_AppCompat:2131296305, style:Base_DialogWindowTitleBackground_AppCompat:2131296427, drawable:abc_dialog_material_background:2130837521, style:Animation_AppCompat_Dialog:2131296418, style:Base_V11_Theme_AppCompat_Light_Dialog:2131296282]
+style:Base_V7_Widget_AppCompat_AutoCompleteTextView:2131296445 => [attr:listChoiceBackgroundIndicator:2130772092, drawable:abc_popup_background_mtrl_mult:2130837556, attr:editTextBackground:2130772074, attr:editTextColor:2130772073, style:Base_Widget_AppCompat_AutoCompleteTextView:2131296293, style:Base_V12_Widget_AppCompat_AutoCompleteTextView:2131296291]
+style:Base_V7_Widget_AppCompat_EditText:2131296446 => [attr:editTextBackground:2130772074, attr:editTextColor:2130772073, style:Base_Widget_AppCompat_EditText:2131296294, style:Base_V12_Widget_AppCompat_EditText:2131296292]
+style:Base_Widget_AppCompat_ActionBar:2131296447 => [attr:dividerVertical:2130772066, attr:actionBarSize:2130772032, style:TextAppearance_AppCompat_Widget_ActionBar_Title:2131296500, style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296498, style:Widget_AppCompat_ActionButton:2131296545, style:Widget_AppCompat_ActionButton_Overflow:2131296547, dimen:abc_action_bar_content_inset_material:2131230732, dimen:abc_action_bar_content_inset_with_nav:2131230733, dimen:abc_action_bar_elevation_material:2131230741, attr:actionBarPopupTheme:2130772027, style:Base_Widget_AppCompat_ActionBar_Solid:2131296448, style:Base_Widget_AppCompat_Light_ActionBar:2131296456, style:Widget_AppCompat_ActionBar:2131296540]
+style:Base_Widget_AppCompat_ActionBar_Solid:2131296448 => [style:Base_Widget_AppCompat_ActionBar:2131296447, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, attr:colorPrimary:2130772093, style:Widget_AppCompat_ActionBar_Solid:2131296541]
+style:Base_Widget_AppCompat_ActionBar_TabBar:2131296449 => [attr:actionBarDivider:2130772033, style:Base_Widget_AppCompat_Light_ActionBar_TabBar:2131296458, style:Widget_AppCompat_ActionBar_TabBar:2131296542]
+style:Base_Widget_AppCompat_ActionBar_TabText:2131296359 => [style:TextAppearance_AppCompat_Medium:2131296484, style:Base_Widget_AppCompat_Light_ActionBar_TabText:2131296373, style:Widget_AppCompat_ActionBar_TabText:2131296543]
+style:Base_Widget_AppCompat_ActionBar_TabView:2131296360 => [drawable:abc_tab_indicator_material:2130837572, style:Base_Widget_AppCompat_Light_ActionBar_TabView:2131296375, style:Widget_AppCompat_ActionBar_TabView:2131296544]
+style:Base_Widget_AppCompat_ActionButton:2131296361 => [style:RtlUnderlay_Widget_AppCompat_ActionButton_Overflow:2131296318, style:RtlUnderlay_Widget_AppCompat_ActionButton:2131296317, attr:actionBarItemBackground:2130772034, dimen:abc_action_button_min_width_material:2131230750, dimen:abc_action_button_min_height_material:2131230749, bool:abc_config_actionMenuItemAllCaps:2131361794, style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362, style:Widget_AppCompat_ActionButton:2131296545]
+style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362 => [style:Base_Widget_AppCompat_ActionButton:2131296361, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, attr:controlBackground:2130772101, style:Widget_AppCompat_ActionButton_CloseMode:2131296546]
+style:Base_Widget_AppCompat_ActionButton_Overflow:2131296363 => [style:RtlUnderlay_Widget_AppCompat_ActionButton_Overflow:2131296318, drawable:abc_ic_menu_overflow_material:2130837530, attr:actionBarItemBackground:2130772034, string:abc_action_menu_overflow_description:2131165188, dimen:abc_action_button_min_width_overflow_material:2131230751, dimen:abc_action_button_min_height_material:2131230749, style:Widget_AppCompat_ActionButton_Overflow:2131296547]
+style:Base_Widget_AppCompat_ActionMode:2131296450 => [attr:actionModeBackground:2130772039, attr:actionModeSplitBackground:2130772040, attr:actionBarSize:2130772032, style:TextAppearance_AppCompat_Widget_ActionMode_Title:2131296504, style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296502, layout:abc_action_mode_close_item_material:2130968582, style:Widget_AppCompat_ActionMode:2131296548]
+style:Base_Widget_AppCompat_ActivityChooserView:2131296451 => [drawable:abc_ab_share_pack_mtrl_alpha:2130837504, attr:dividerVertical:2130772066, style:Widget_AppCompat_ActivityChooserView:2131296549]
+style:Base_Widget_AppCompat_AutoCompleteTextView:2131296293 => [style:Base_V7_Widget_AppCompat_AutoCompleteTextView:2131296445, style:Widget_AppCompat_AutoCompleteTextView:2131296550, style:Base_V12_Widget_AppCompat_AutoCompleteTextView:2131296291, attr:editTextBackground:2130772074]
+style:Base_Widget_AppCompat_Button:2131296364 => [drawable:abc_btn_default_mtrl_shape:2130837511, style:Base_Widget_AppCompat_Button_Borderless:2131296365, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366, style:Base_Widget_AppCompat_Button_Colored:2131296408, style:Base_Widget_AppCompat_Button_Small:2131296367, style:Widget_AppCompat_Button:2131296551]
+style:Base_Widget_AppCompat_ButtonBar:2131296368 => [style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453, style:Widget_AppCompat_ButtonBar:2131296557]
+style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453 => [style:Base_Widget_AppCompat_ButtonBar:2131296368, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:Widget_AppCompat_ButtonBar_AlertDialog:2131296558]
+style:Base_Widget_AppCompat_Button_Borderless:2131296365 => [style:Base_Widget_AppCompat_Button:2131296364, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, drawable:abc_btn_borderless_material:2130837506, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366, style:Widget_AppCompat_Button_Borderless:2131296552]
+style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366 => [style:Base_Widget_AppCompat_Button_Borderless:2131296365, style:Base_Widget_AppCompat_Button:2131296364, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296507, style:Widget_AppCompat_Button_Borderless_Colored:2131296553, color:abc_btn_colored_borderless_text_material:2131427396]
+style:Base_Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296452 => [style:Widget_AppCompat_Button_Borderless_Colored:2131296553, dimen:abc_alert_dialog_button_bar_height:2131230720, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296554]
+style:Base_Widget_AppCompat_Button_Colored:2131296408 => [style:Base_Widget_AppCompat_Button:2131296364, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, drawable:abc_btn_colored_material:2130837510, style:TextAppearance_AppCompat_Widget_Button_Colored:2131296508, style:Widget_AppCompat_Button_Colored:2131296555]
+style:Base_Widget_AppCompat_Button_Small:2131296367 => [style:Base_Widget_AppCompat_Button:2131296364, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:Widget_AppCompat_Button_Small:2131296556]
+style:Base_Widget_AppCompat_CompoundButton_CheckBox:2131296369 => [attr:controlBackground:2130772101, style:Widget_AppCompat_CompoundButton_CheckBox:2131296559]
+style:Base_Widget_AppCompat_CompoundButton_RadioButton:2131296370 => [attr:controlBackground:2130772101, style:Widget_AppCompat_CompoundButton_RadioButton:2131296560]
+style:Base_Widget_AppCompat_CompoundButton_Switch:2131296454 => [drawable:abc_switch_track_mtrl_alpha:2130837571, drawable:abc_switch_thumb_material:2130837570, style:TextAppearance_AppCompat_Widget_Switch:2131296514, attr:controlBackground:2130772101, dimen:abc_switch_padding:2131230737, string:abc_capital_on:2131165193, string:abc_capital_off:2131165192, style:Widget_AppCompat_CompoundButton_Switch:2131296561]
+style:Base_Widget_AppCompat_DrawerArrowToggle:2131296256 => [style:Base_Widget_AppCompat_DrawerArrowToggle_Common:2131296455, style:Widget_AppCompat_DrawerArrowToggle:2131296562]
+style:Base_Widget_AppCompat_DrawerArrowToggle_Common:2131296455 => [style:Base_Widget_AppCompat_DrawerArrowToggle:2131296256]
+style:Base_Widget_AppCompat_DropDownItem_Spinner:2131296371 => [style:RtlOverlay_Widget_AppCompat_Search_DropDown_Text:2131296315, style:TextAppearance_AppCompat_Widget_DropDownItem:2131296510]
+style:Base_Widget_AppCompat_EditText:2131296294 => [style:Base_V7_Widget_AppCompat_EditText:2131296446, style:Widget_AppCompat_EditText:2131296564, style:Base_V12_Widget_AppCompat_EditText:2131296292, attr:editTextBackground:2130772074]
+style:Base_Widget_AppCompat_ImageButton:2131296372 => [drawable:abc_btn_default_mtrl_shape:2130837511, style:Widget_AppCompat_ImageButton:2131296565]
+style:Base_Widget_AppCompat_Light_ActionBar:2131296456 => [style:Base_Widget_AppCompat_ActionBar:2131296447, style:Widget_AppCompat_Light_ActionButton:2131296575, style:Widget_AppCompat_Light_ActionButton_Overflow:2131296577, style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Widget_AppCompat_Light_ActionBar:2131296566]
+style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457 => [style:Base_Widget_AppCompat_Light_ActionBar:2131296456, style:Base_Widget_AppCompat_Light:-1, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, attr:colorPrimary:2130772093, style:Widget_AppCompat_Light_ActionBar_Solid:2131296567]
+style:Base_Widget_AppCompat_Light_ActionBar_TabBar:2131296458 => [style:Base_Widget_AppCompat_ActionBar_TabBar:2131296449, style:Widget_AppCompat_Light_ActionBar_TabBar:2131296569]
+style:Base_Widget_AppCompat_Light_ActionBar_TabText:2131296373 => [style:Base_Widget_AppCompat_ActionBar_TabText:2131296359, style:Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296374, style:Widget_AppCompat_Light_ActionBar_TabText:2131296571]
+style:Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296374 => [style:Base_Widget_AppCompat_Light_ActionBar_TabText:2131296373, style:TextAppearance_AppCompat_Medium_Inverse:2131296485, style:Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296572]
+style:Base_Widget_AppCompat_Light_ActionBar_TabView:2131296375 => [style:Base_Widget_AppCompat_ActionBar_TabView:2131296360, drawable:abc_tab_indicator_material:2130837572, style:Widget_AppCompat_Light_ActionBar_TabView:2131296573]
+style:Base_Widget_AppCompat_Light_PopupMenu:2131296376 => [style:Widget_AppCompat_ListPopupWindow:2131296589, style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377, style:Widget_AppCompat_Light_PopupMenu:2131296584]
+style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377 => [style:Base_Widget_AppCompat_Light_PopupMenu:2131296376, style:Base_Widget_AppCompat_Light:-1, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:Widget_AppCompat_Light_PopupMenu_Overflow:2131296585]
+style:Base_Widget_AppCompat_ListMenuView:2131296459 => [drawable:abc_ic_arrow_drop_right_black_24dp:2130837524, style:Widget_AppCompat_ListMenuView:2131296588]
+style:Base_Widget_AppCompat_ListPopupWindow:2131296378 => [attr:listChoiceBackgroundIndicator:2130772092, drawable:abc_popup_background_mtrl_mult:2130837556, style:Widget_AppCompat_ListPopupWindow:2131296589]
+style:Base_Widget_AppCompat_ListView:2131296379 => [attr:listChoiceBackgroundIndicator:2130772092, style:Base_Widget_AppCompat_ListView_DropDown:2131296380, style:Widget_AppCompat_ListView:2131296590, style:Base_Widget_AppCompat_ListView_Menu:2131296381]
+style:Base_Widget_AppCompat_ListView_DropDown:2131296380 => [style:Base_Widget_AppCompat_ListView:2131296379, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:Widget_AppCompat_ListView_DropDown:2131296591]
+style:Base_Widget_AppCompat_ListView_Menu:2131296381 => [attr:listChoiceBackgroundIndicator:2130772092, attr:dividerHorizontal:2130772067, style:Widget_AppCompat_ListView_Menu:2131296592, style:Base_Widget_AppCompat_ListView:2131296379, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1]
+style:Base_Widget_AppCompat_PopupMenu:2131296382 => [style:Widget_AppCompat_ListPopupWindow:2131296589, style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383, style:Widget_AppCompat_PopupMenu:2131296593]
+style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383 => [style:Base_Widget_AppCompat_PopupMenu:2131296382, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, style:Widget_AppCompat_PopupMenu_Overflow:2131296594]
+style:Base_Widget_AppCompat_PopupWindow:2131296460 => [style:Widget_AppCompat_PopupWindow:2131296595]
+style:Base_Widget_AppCompat_ProgressBar:2131296284 => [dimen:abc_action_bar_progress_bar_size:2131230722, style:Widget_AppCompat_ProgressBar:2131296596]
+style:Base_Widget_AppCompat_ProgressBar_Horizontal:2131296285 => [style:Widget_AppCompat_ProgressBar_Horizontal:2131296597]
+style:Base_Widget_AppCompat_RatingBar:2131296384 => [drawable:abc_ratingbar_material:2130837558, style:Widget_AppCompat_RatingBar:2131296598]
+style:Base_Widget_AppCompat_RatingBar_Indicator:2131296409 => [drawable:abc_ratingbar_indicator_material:2130837557, style:Widget_AppCompat_RatingBar_Indicator:2131296599]
+style:Base_Widget_AppCompat_RatingBar_Small:2131296410 => [drawable:abc_ratingbar_small_material:2130837559, style:Widget_AppCompat_RatingBar_Small:2131296600]
+style:Base_Widget_AppCompat_SearchView:2131296461 => [layout:abc_search_view:2130968601, drawable:abc_textfield_search_material:2130837585, drawable:abc_ic_clear_material:2130837525, drawable:abc_ic_search_api_material:2130837534, drawable:abc_ic_go_search_api_material:2130837527, drawable:abc_ic_voice_search_api_material:2130837541, drawable:abc_ic_commit_search_api_mtrl_alpha:2130837526, layout:abc_search_dropdown_item_icons_2line:2130968600, style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462, style:Widget_AppCompat_SearchView:2131296601]
+style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462 => [style:Base_Widget_AppCompat_SearchView:2131296461, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, string:abc_search_hint:2131165194, style:Widget_AppCompat_SearchView_ActionBar:2131296602]
+style:Base_Widget_AppCompat_SeekBar:2131296385 => [drawable:abc_seekbar_track_material:2130837567, drawable:abc_seekbar_thumb_material:2130837565, style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463, style:Widget_AppCompat_SeekBar:2131296603]
+style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463 => [style:Base_Widget_AppCompat_SeekBar:2131296385, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, drawable:abc_seekbar_tick_mark_material:2130837566, style:Widget_AppCompat_SeekBar_Discrete:2131296604]
+style:Base_Widget_AppCompat_Spinner:2131296386 => [style:Platform_Widget_AppCompat_Spinner:2131296290, drawable:abc_spinner_mtrl_am_alpha:2130837568, drawable:abc_popup_background_mtrl_mult:2130837556, attr:listChoiceBackgroundIndicator:2130772092, style:Base_Widget_AppCompat_Spinner_Underlined:2131296259, style:Widget_AppCompat_Spinner:2131296605]
+style:Base_Widget_AppCompat_Spinner_Underlined:2131296259 => [style:Base_Widget_AppCompat_Spinner:2131296386, style:Base_Widget_AppCompat:-1, style:Base_Widget:-1, style:Base:-1, drawable:abc_spinner_textfield_background_material:2130837569, style:Widget_AppCompat_Spinner_Underlined:2131296608]
+style:Base_Widget_AppCompat_TextView_SpinnerItem:2131296387 => [style:TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296515, style:Widget_AppCompat_TextView_SpinnerItem:2131296609]
+style:Base_Widget_AppCompat_Toolbar:2131296464 => [style:TextAppearance_Widget_AppCompat_Toolbar_Title:2131296518, style:TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296517, attr:actionBarSize:2130772032, dimen:abc_action_bar_default_height_material:2131230721, attr:homeAsUpIndicator:2130772059, string:abc_toolbar_collapse_description:2131165202, dimen:abc_action_bar_content_inset_with_nav:2131230733, dimen:abc_action_bar_default_padding_start_material:2131230735, dimen:abc_action_bar_default_padding_end_material:2131230734, style:Widget_AppCompat_Toolbar:2131296610]
+style:Base_Widget_AppCompat_Toolbar_Button_Navigation:2131296388 => [attr:controlBackground:2130772101, style:Widget_AppCompat_Toolbar_Button_Navigation:2131296611]
+style:Platform_AppCompat:2131296286 => [style:Base_V7_Theme_AppCompat:2131296440, color:foreground_material_dark:2131427358, color:foreground_material_light:2131427359, color:background_material_dark:2131427337, color:abc_background_cache_hint_selector_material_dark:2131427394, dimen:abc_disabled_alpha_material_dark:2131230765, color:abc_primary_text_material_dark:2131427403, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_secondary_text_material_dark:2131427406, color:abc_secondary_text_material_light:2131427407, color:abc_hint_foreground_material_dark:2131427399, color:abc_hint_foreground_material_light:2131427400, color:highlighted_text_material_dark:2131427360, attr:colorAccent:2130772095, style:TextAppearance_AppCompat:2131296467, style:TextAppearance_AppCompat_Inverse:2131296477, style:TextAppearance_AppCompat_Large:2131296478, style:TextAppearance_AppCompat_Large_Inverse:2131296479, style:TextAppearance_AppCompat_Medium:2131296484, style:TextAppearance_AppCompat_Medium_Inverse:2131296485, style:TextAppearance_AppCompat_Small:2131296491, style:TextAppearance_AppCompat_Small_Inverse:2131296492, drawable:abc_btn_radio_material:2130837512, drawable:abc_btn_check_material:2130837507, drawable:abc_text_select_handle_middle_mtrl_dark:2130837577, drawable:abc_text_select_handle_left_mtrl_dark:2130837575, drawable:abc_text_select_handle_right_mtrl_dark:2130837579, style:Platform_V14_AppCompat:2131296296, style:Platform_V25_AppCompat:2131296414, style:Platform_V11_AppCompat:2131296288, style:Platform_V21_AppCompat:2131296392]
+style:Platform_AppCompat_Light:2131296287 => [style:Base_V7_Theme_AppCompat_Light:2131296442, color:foreground_material_light:2131427359, color:foreground_material_dark:2131427358, color:background_material_light:2131427338, color:abc_background_cache_hint_selector_material_light:2131427395, dimen:abc_disabled_alpha_material_light:2131230766, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_material_dark:2131427403, color:abc_secondary_text_material_light:2131427407, color:abc_secondary_text_material_dark:2131427406, color:abc_primary_text_disable_only_material_light:2131427402, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_hint_foreground_material_light:2131427400, color:abc_hint_foreground_material_dark:2131427399, color:highlighted_text_material_light:2131427361, attr:colorAccent:2130772095, style:TextAppearance_AppCompat:2131296467, style:TextAppearance_AppCompat_Inverse:2131296477, style:TextAppearance_AppCompat_Large:2131296478, style:TextAppearance_AppCompat_Large_Inverse:2131296479, style:TextAppearance_AppCompat_Medium:2131296484, style:TextAppearance_AppCompat_Medium_Inverse:2131296485, style:TextAppearance_AppCompat_Small:2131296491, style:TextAppearance_AppCompat_Small_Inverse:2131296492, drawable:abc_btn_radio_material:2130837512, drawable:abc_btn_check_material:2130837507, drawable:abc_text_select_handle_middle_mtrl_light:2130837578, drawable:abc_text_select_handle_left_mtrl_light:2130837576, drawable:abc_text_select_handle_right_mtrl_light:2130837580, style:Platform_V14_AppCompat_Light:2131296297, style:Platform_V25_AppCompat_Light:2131296415, style:Platform_V11_AppCompat_Light:2131296289, style:Platform_V21_AppCompat_Light:2131296393]
+style:Platform_ThemeOverlay_AppCompat:2131296389 => [style:Base_ThemeOverlay_AppCompat:2131296435, style:Platform_ThemeOverlay_AppCompat_Dark:2131296390, style:Platform_ThemeOverlay_AppCompat_Light:2131296391, attr:colorPrimary:2130772093, attr:colorPrimaryDark:2130772094, attr:colorAccent:2130772095, attr:colorControlNormal:2130772096, attr:colorControlActivated:2130772097, attr:colorControlHighlight:2130772098, attr:colorButtonNormal:2130772099]
+style:Platform_ThemeOverlay_AppCompat_Dark:2131296390 => [style:Base_ThemeOverlay_AppCompat_Dark:2131296437, style:Platform_ThemeOverlay_AppCompat:2131296389, style:Platform_ThemeOverlay:-1, style:Platform:-1, drawable:abc_item_background_holo_dark:2130837542, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607, style:Widget_AppCompat_AutoCompleteTextView:2131296550, style:Widget_AppCompat_DropDownItem_Spinner:2131296563]
+style:Platform_ThemeOverlay_AppCompat_Light:2131296391 => [style:Base_ThemeOverlay_AppCompat_Light:2131296439, style:Platform_ThemeOverlay_AppCompat:2131296389, style:Platform_ThemeOverlay:-1, style:Platform:-1, drawable:abc_item_background_holo_light:2130837543, style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131296587, style:Widget_AppCompat_Light_AutoCompleteTextView:2131296580, style:Widget_AppCompat_DropDownItem_Spinner:2131296563]
+style:Platform_V11_AppCompat:2131296288 => [style:Platform_V14_AppCompat:2131296296, style:Platform_AppCompat:2131296286, attr:buttonBarStyle:2130772061, attr:buttonBarButtonStyle:2130772062, color:foreground_material_dark:2131427358, color:foreground_material_light:2131427359, color:background_material_dark:2131427337, color:abc_background_cache_hint_selector_material_dark:2131427394, dimen:abc_disabled_alpha_material_dark:2131230765, color:abc_primary_text_material_dark:2131427403, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_secondary_text_material_dark:2131427406, color:abc_secondary_text_material_light:2131427407, color:abc_hint_foreground_material_dark:2131427399, color:abc_hint_foreground_material_light:2131427400, color:highlighted_text_material_dark:2131427360, color:highlighted_text_material_light:2131427361, attr:colorAccent:2130772095, style:TextAppearance_AppCompat:2131296467, style:TextAppearance_AppCompat_Inverse:2131296477, style:TextAppearance_AppCompat_Large:2131296478, style:TextAppearance_AppCompat_Large_Inverse:2131296479, style:TextAppearance_AppCompat_Medium:2131296484, style:TextAppearance_AppCompat_Medium_Inverse:2131296485, style:TextAppearance_AppCompat_Small:2131296491, style:TextAppearance_AppCompat_Small_Inverse:2131296492, drawable:abc_btn_radio_material:2130837512, drawable:abc_btn_check_material:2130837507, attr:actionModeCutDrawable:2130772042, attr:actionModeCopyDrawable:2130772043, attr:actionModePasteDrawable:2130772044, drawable:abc_text_select_handle_middle_mtrl_dark:2130837577, drawable:abc_text_select_handle_left_mtrl_dark:2130837575, drawable:abc_text_select_handle_right_mtrl_dark:2130837579]
+style:Platform_V11_AppCompat_Light:2131296289 => [style:Platform_V14_AppCompat_Light:2131296297, style:Platform_AppCompat_Light:2131296287, attr:buttonBarStyle:2130772061, attr:buttonBarButtonStyle:2130772062, color:foreground_material_light:2131427359, color:foreground_material_dark:2131427358, color:background_material_light:2131427338, color:abc_background_cache_hint_selector_material_light:2131427395, dimen:abc_disabled_alpha_material_light:2131230766, color:abc_primary_text_material_light:2131427404, color:abc_primary_text_material_dark:2131427403, color:abc_secondary_text_material_light:2131427407, color:abc_secondary_text_material_dark:2131427406, color:abc_primary_text_disable_only_material_light:2131427402, color:abc_primary_text_disable_only_material_dark:2131427401, color:abc_hint_foreground_material_light:2131427400, color:abc_hint_foreground_material_dark:2131427399, color:highlighted_text_material_light:2131427361, color:highlighted_text_material_dark:2131427360, attr:colorAccent:2130772095, style:TextAppearance_AppCompat:2131296467, style:TextAppearance_AppCompat_Inverse:2131296477, style:TextAppearance_AppCompat_Large:2131296478, style:TextAppearance_AppCompat_Large_Inverse:2131296479, style:TextAppearance_AppCompat_Medium:2131296484, style:TextAppearance_AppCompat_Medium_Inverse:2131296485, style:TextAppearance_AppCompat_Small:2131296491, style:TextAppearance_AppCompat_Small_Inverse:2131296492, drawable:abc_btn_radio_material:2130837512, drawable:abc_btn_check_material:2130837507, attr:actionModeCutDrawable:2130772042, attr:actionModeCopyDrawable:2130772043, attr:actionModePasteDrawable:2130772044, drawable:abc_text_select_handle_middle_mtrl_light:2130837578, drawable:abc_text_select_handle_left_mtrl_light:2130837576, drawable:abc_text_select_handle_right_mtrl_light:2130837580]
+style:Platform_V14_AppCompat:2131296296 => [style:Platform_AppCompat:2131296286, style:Platform_V11_AppCompat:2131296288, attr:actionModeSelectAllDrawable:2130772045, dimen:abc_list_item_padding_horizontal_material:2131230774]
+style:Platform_V14_AppCompat_Light:2131296297 => [style:Platform_AppCompat_Light:2131296287, style:Platform_V11_AppCompat_Light:2131296289, attr:actionModeSelectAllDrawable:2130772045, dimen:abc_list_item_padding_horizontal_material:2131230774]
+style:Platform_V21_AppCompat:2131296392 => [style:Platform_AppCompat:2131296286, color:abc_hint_foreground_material_dark:2131427399, color:abc_hint_foreground_material_light:2131427400, attr:buttonBarStyle:2130772061, attr:buttonBarButtonStyle:2130772062]
+style:Platform_V21_AppCompat_Light:2131296393 => [style:Platform_AppCompat_Light:2131296287, color:abc_hint_foreground_material_light:2131427400, color:abc_hint_foreground_material_dark:2131427399, attr:buttonBarStyle:2130772061, attr:buttonBarButtonStyle:2130772062]
+style:Platform_V25_AppCompat:2131296414 => [style:Platform_AppCompat:2131296286]
+style:Platform_V25_AppCompat_Light:2131296415 => [style:Platform_AppCompat_Light:2131296287]
+style:Platform_Widget_AppCompat_Spinner:2131296290 => [style:Base_Widget_AppCompat_Spinner:2131296386]
+style:RtlOverlay_DialogWindowTitle_AppCompat:2131296305 => [style:Base_DialogWindowTitle_AppCompat:2131296426]
+style:RtlOverlay_Widget_AppCompat_SearchView_MagIcon:2131296316 => [dimen:abc_dropdownitem_text_padding_left:2131230768]
+style:RtlOverlay_Widget_AppCompat_Search_DropDown:2131296311 => [dimen:abc_dropdownitem_text_padding_left:2131230768]
+style:RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2:2131296313 => [id:edit_query:2131492938]
+style:RtlOverlay_Widget_AppCompat_Search_DropDown_Text:2131296315 => [style:Base_Widget_AppCompat_DropDownItem_Spinner:2131296371, style:Widget_AppCompat_DropDownItem_Spinner:2131296563]
+style:RtlUnderlay_Widget_AppCompat_ActionButton:2131296317 => [style:Base_Widget_AppCompat_ActionButton:2131296361]
+style:RtlUnderlay_Widget_AppCompat_ActionButton_Overflow:2131296318 => [style:Base_Widget_AppCompat_ActionButton:2131296361, dimen:abc_action_bar_overflow_padding_start_material:2131230744, dimen:abc_action_bar_overflow_padding_end_material:2131230743, style:Base_Widget_AppCompat_ActionButton_Overflow:2131296363]
+style:TextAppearance_AppCompat:2131296467 => [style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296345, style:Base_TextAppearance_AppCompat:2131296319, style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat_Notification_Info:2131296394, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, style:TextAppearance_AppCompat_Notification_Media:2131296396, style:TextAppearance_AppCompat_Notification_Time:2131296397, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Title:2131296299, style:TextAppearance_AppCompat_Notification_Title_Media:2131296399]
+style:TextAppearance_AppCompat_Body1:2131296468 => [style:Base_TextAppearance_AppCompat_Body1:2131296320]
+style:TextAppearance_AppCompat_Body2:2131296469 => [style:Base_TextAppearance_AppCompat_Body2:2131296321]
+style:TextAppearance_AppCompat_Button:2131296470 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296404, style:Base_TextAppearance_AppCompat_Widget_Button:2131296344, style:Base_TextAppearance_AppCompat_Widget_Button_Inverse:2131296405, style:Base_TextAppearance_AppCompat_Widget_Switch:2131296348, style:Base_TextAppearance_AppCompat_Button:2131296295]
+style:TextAppearance_AppCompat_Caption:2131296471 => [style:Base_TextAppearance_AppCompat_Caption:2131296322]
+style:TextAppearance_AppCompat_Display1:2131296472 => [style:Base_TextAppearance_AppCompat_Display1:2131296323]
+style:TextAppearance_AppCompat_Display2:2131296473 => [style:Base_TextAppearance_AppCompat_Display2:2131296324]
+style:TextAppearance_AppCompat_Display3:2131296474 => [style:Base_TextAppearance_AppCompat_Display3:2131296325]
+style:TextAppearance_AppCompat_Display4:2131296475 => [style:Base_TextAppearance_AppCompat_Display4:2131296326]
+style:TextAppearance_AppCompat_Headline:2131296476 => [style:Base_TextAppearance_AppCompat_Headline:2131296327]
+style:TextAppearance_AppCompat_Inverse:2131296477 => [style:Base_TextAppearance_AppCompat_Inverse:2131296267]
+style:TextAppearance_AppCompat_Large:2131296478 => [style:Base_TextAppearance_AppCompat_Large:2131296328]
+style:TextAppearance_AppCompat_Large_Inverse:2131296479 => [style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268]
+style:TextAppearance_AppCompat_Light_SearchResult_Subtitle:2131296480 => [style:TextAppearance_AppCompat_SearchResult_Subtitle:2131296489]
+style:TextAppearance_AppCompat_Light_SearchResult_Title:2131296481 => [style:TextAppearance_AppCompat_SearchResult_Title:2131296490]
+style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131296482 => [style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296512]
+style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131296483 => [style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296513]
+style:TextAppearance_AppCompat_Medium:2131296484 => [style:Base_TextAppearance_AppCompat_Medium:2131296331]
+style:TextAppearance_AppCompat_Medium_Inverse:2131296485 => [style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269]
+style:TextAppearance_AppCompat_Menu:2131296486 => [style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296346, style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296347, style:Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296349, style:Base_TextAppearance_AppCompat_Menu:2131296332]
+style:TextAppearance_AppCompat_Notification:2131296298 => [style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, style:TextAppearance_AppCompat_Notification_Info:2131296394, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, style:TextAppearance_AppCompat_Notification_Media:2131296396, style:TextAppearance_AppCompat_Notification_Time:2131296397, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Title:2131296299, style:TextAppearance_AppCompat_Notification_Title_Media:2131296399]
+style:TextAppearance_AppCompat_Notification_Info:2131296394 => [style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, style:TextAppearance_AppCompat_Notification_Line2:2131296487]
+style:TextAppearance_AppCompat_Notification_Info_Media:2131296395 => [style:TextAppearance_AppCompat_Notification_Info:2131296394, style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, style:TextAppearance_AppCompat_Notification_Line2_Media:2131296488, color:secondary_text_default_material_dark:2131427386]
+style:TextAppearance_AppCompat_Notification_Line2:2131296487 => [style:TextAppearance_AppCompat_Notification_Info:2131296394]
+style:TextAppearance_AppCompat_Notification_Line2_Media:2131296488 => [style:TextAppearance_AppCompat_Notification_Info_Media:2131296395]
+style:TextAppearance_AppCompat_Notification_Media:2131296396 => [style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, color:secondary_text_default_material_dark:2131427386]
+style:TextAppearance_AppCompat_Notification_Time:2131296397 => [style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398]
+style:TextAppearance_AppCompat_Notification_Time_Media:2131296398 => [style:TextAppearance_AppCompat_Notification_Time:2131296397, style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, color:secondary_text_default_material_dark:2131427386]
+style:TextAppearance_AppCompat_Notification_Title:2131296299 => [style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, style:TextAppearance_AppCompat_Notification_Title_Media:2131296399]
+style:TextAppearance_AppCompat_Notification_Title_Media:2131296399 => [style:TextAppearance_AppCompat_Notification_Title:2131296299, style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat:2131296467, style:TextAppearance:-1, color:primary_text_default_material_dark:2131427380]
+style:TextAppearance_AppCompat_SearchResult_Subtitle:2131296489 => [style:TextAppearance_AppCompat_Light_SearchResult_Subtitle:2131296480, style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333]
+style:TextAppearance_AppCompat_SearchResult_Title:2131296490 => [style:TextAppearance_AppCompat_Light_SearchResult_Title:2131296481, style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334]
+style:TextAppearance_AppCompat_Small:2131296491 => [style:Base_TextAppearance_AppCompat_Small:2131296335]
+style:TextAppearance_AppCompat_Small_Inverse:2131296492 => [style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270]
+style:TextAppearance_AppCompat_Subhead:2131296493 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296338, style:Base_TextAppearance_AppCompat_Subhead:2131296336]
+style:TextAppearance_AppCompat_Subhead_Inverse:2131296494 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296339, style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271]
+style:TextAppearance_AppCompat_Title:2131296495 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title:2131296340, style:Base_TextAppearance_AppCompat_Title:2131296337]
+style:TextAppearance_AppCompat_Title_Inverse:2131296496 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296341, style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272]
+style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296497 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296404]
+style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296498 => [style:Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296342, style:Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296350, style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296338]
+style:TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296499 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296339]
+style:TextAppearance_AppCompat_Widget_ActionBar_Title:2131296500 => [style:Base_TextAppearance_AppCompat_Widget_ActionMode_Title:2131296343, style:Base_TextAppearance_Widget_AppCompat_Toolbar_Title:2131296351, style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title:2131296340]
+style:TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296501 => [style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296341]
+style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296502 => [style:Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296342, style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse:2131296503]
+style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse:2131296503 => [style:TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296502]
+style:TextAppearance_AppCompat_Widget_ActionMode_Title:2131296504 => [style:Base_TextAppearance_AppCompat_Widget_ActionMode_Title:2131296343, style:TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse:2131296505]
+style:TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse:2131296505 => [style:TextAppearance_AppCompat_Widget_ActionMode_Title:2131296504]
+style:TextAppearance_AppCompat_Widget_Button:2131296506 => [style:Base_TextAppearance_AppCompat_Widget_Button:2131296344]
+style:TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296507 => [style:Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296412]
+style:TextAppearance_AppCompat_Widget_Button_Colored:2131296508 => [style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413]
+style:TextAppearance_AppCompat_Widget_Button_Inverse:2131296509 => [style:Base_TextAppearance_AppCompat_Widget_Button_Inverse:2131296405]
+style:TextAppearance_AppCompat_Widget_DropDownItem:2131296510 => [style:Base_TextAppearance_AppCompat_Widget_DropDownItem:2131296429]
+style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296511 => [style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Header:2131296345]
+style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296512 => [style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131296482, style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296346]
+style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296513 => [style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131296483, style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296347]
+style:TextAppearance_AppCompat_Widget_Switch:2131296514 => [style:Base_TextAppearance_AppCompat_Widget_Switch:2131296348]
+style:TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296515 => [style:Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296349]
+style:TextAppearance_StatusBar_EventContent:2131296300 => [style:TextAppearance_StatusBar_EventContent_Info:2131296301, style:TextAppearance_StatusBar_EventContent_Line2:2131296302, style:TextAppearance_StatusBar_EventContent_Time:2131296303]
+style:TextAppearance_StatusBar_EventContent_Info:2131296301 => [style:TextAppearance_StatusBar_EventContent:2131296300, style:TextAppearance_StatusBar:-1, style:TextAppearance:-1]
+style:TextAppearance_StatusBar_EventContent_Line2:2131296302 => [style:TextAppearance_StatusBar_EventContent:2131296300, style:TextAppearance_StatusBar:-1, style:TextAppearance:-1, dimen:notification_subtext_size:2131230821]
+style:TextAppearance_StatusBar_EventContent_Time:2131296303 => [style:TextAppearance_StatusBar_EventContent:2131296300, style:TextAppearance_StatusBar:-1, style:TextAppearance:-1]
+style:TextAppearance_Widget_AppCompat_ExpandedMenu_Item:2131296516 => [style:Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item:2131296430]
+style:TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296517 => [style:Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296350]
+style:TextAppearance_Widget_AppCompat_Toolbar_Title:2131296518 => [style:Base_TextAppearance_Widget_AppCompat_Toolbar_Title:2131296351]
+style:ThemeOverlay_AppCompat:2131296533 => [style:Base_ThemeOverlay_AppCompat:2131296435]
+style:ThemeOverlay_AppCompat_ActionBar:2131296534 => [style:Base_ThemeOverlay_AppCompat_ActionBar:2131296436]
+style:ThemeOverlay_AppCompat_Dark:2131296535 => [style:Base_ThemeOverlay_AppCompat_Dark:2131296437]
+style:ThemeOverlay_AppCompat_Dark_ActionBar:2131296536 => [style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438]
+style:ThemeOverlay_AppCompat_Dialog:2131296537 => [style:Base_ThemeOverlay_AppCompat_Dialog:2131296279]
+style:ThemeOverlay_AppCompat_Dialog_Alert:2131296538 => [style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280]
+style:ThemeOverlay_AppCompat_Light:2131296539 => [style:Base_ThemeOverlay_AppCompat_Light:2131296439]
+style:Theme_AppCompat:2131296519 => [style:Base_Theme_AppCompat_DialogWhenLarge:2131296257, style:Base_Theme_AppCompat:2131296352, style:Theme_AppCompat_Light_NoActionBar:2131296531, style:Theme_AppCompat_NoActionBar:2131296532, style:Theme_AppCompat_DayNight:2131296260, style:Theme_AppCompat_DayNight_DarkActionBar:2131296261]
+style:Theme_AppCompat_CompactMenu:2131296520 => [style:Base_Theme_AppCompat_CompactMenu:2131296431]
+style:Theme_AppCompat_DayNight:2131296260 => [style:Theme_AppCompat_Light:2131296525, style:Theme_AppCompat:2131296519]
+style:Theme_AppCompat_DayNight_DarkActionBar:2131296261 => [style:Theme_AppCompat_Light_DarkActionBar:2131296526, style:Theme_AppCompat:2131296519]
+style:Theme_AppCompat_DayNight_Dialog:2131296262 => [style:Theme_AppCompat_Light_Dialog:2131296527, style:Theme_AppCompat_Dialog:2131296521]
+style:Theme_AppCompat_DayNight_DialogWhenLarge:2131296265 => [style:Theme_AppCompat_Light_DialogWhenLarge:2131296530, style:Theme_AppCompat_DialogWhenLarge:2131296524]
+style:Theme_AppCompat_DayNight_Dialog_Alert:2131296263 => [style:Theme_AppCompat_Light_Dialog_Alert:2131296528, style:Theme_AppCompat_Dialog_Alert:2131296522]
+style:Theme_AppCompat_DayNight_Dialog_MinWidth:2131296264 => [style:Theme_AppCompat_Light_Dialog_MinWidth:2131296529, style:Theme_AppCompat_Dialog_MinWidth:2131296523]
+style:Theme_AppCompat_DayNight_NoActionBar:2131296266 => [style:Theme_AppCompat_Light_NoActionBar:2131296531, style:Theme_AppCompat_NoActionBar:2131296532]
+style:Theme_AppCompat_Dialog:2131296521 => [style:Base_Theme_AppCompat_Dialog:2131296273, style:Theme_AppCompat_DayNight_Dialog:2131296262]
+style:Theme_AppCompat_DialogWhenLarge:2131296524 => [style:Base_Theme_AppCompat_DialogWhenLarge:2131296257, style:Theme_AppCompat_DayNight_DialogWhenLarge:2131296265]
+style:Theme_AppCompat_Dialog_Alert:2131296522 => [style:Base_Theme_AppCompat_Dialog_Alert:2131296274, style:Theme_AppCompat_DayNight_Dialog_Alert:2131296263]
+style:Theme_AppCompat_Dialog_MinWidth:2131296523 => [style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275, style:Theme_AppCompat_DayNight_Dialog_MinWidth:2131296264]
+style:Theme_AppCompat_Light:2131296525 => [style:Base_Theme_AppCompat_Light_DialogWhenLarge:2131296258, style:Theme_AppCompat_DayNight:2131296260, style:Base_Theme_AppCompat_Light:2131296353, style:Theme_AppCompat_Light_NoActionBar:2131296531]
+style:Theme_AppCompat_Light_DarkActionBar:2131296526 => [style:AppTheme:2131296420, style:Theme_AppCompat_DayNight_DarkActionBar:2131296261, style:Base_Theme_AppCompat_Light_DarkActionBar:2131296433]
+style:Theme_AppCompat_Light_Dialog:2131296527 => [style:Theme_AppCompat_DayNight_Dialog:2131296262, style:Base_Theme_AppCompat_Light_Dialog:2131296276]
+style:Theme_AppCompat_Light_DialogWhenLarge:2131296530 => [style:Theme_AppCompat_DayNight_DialogWhenLarge:2131296265, style:Base_Theme_AppCompat_Light_DialogWhenLarge:2131296258]
+style:Theme_AppCompat_Light_Dialog_Alert:2131296528 => [style:Theme_AppCompat_DayNight_Dialog_Alert:2131296263, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277]
+style:Theme_AppCompat_Light_Dialog_MinWidth:2131296529 => [style:Theme_AppCompat_DayNight_Dialog_MinWidth:2131296264, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278]
+style:Theme_AppCompat_Light_NoActionBar:2131296531 => [style:Theme_AppCompat_DayNight_NoActionBar:2131296266, style:Theme_AppCompat_Light:2131296525, style:Theme_AppCompat:2131296519, style:Theme:-1]
+style:Theme_AppCompat_NoActionBar:2131296532 => [style:Theme_AppCompat:2131296519, style:Theme:-1, style:Theme_AppCompat_DayNight_NoActionBar:2131296266]
+style:Widget_AppCompat_ActionBar:2131296540 => [style:Base_Widget_AppCompat_ActionBar:2131296447]
+style:Widget_AppCompat_ActionBar_Solid:2131296541 => [style:Base_Widget_AppCompat_ActionBar_Solid:2131296448]
+style:Widget_AppCompat_ActionBar_TabBar:2131296542 => [style:Base_Widget_AppCompat_ActionBar_TabBar:2131296449]
+style:Widget_AppCompat_ActionBar_TabText:2131296543 => [style:Base_Widget_AppCompat_ActionBar_TabText:2131296359]
+style:Widget_AppCompat_ActionBar_TabView:2131296544 => [style:Base_Widget_AppCompat_ActionBar_TabView:2131296360]
+style:Widget_AppCompat_ActionButton:2131296545 => [style:Base_Widget_AppCompat_ActionButton:2131296361, style:Widget_AppCompat_Light_ActionButton:2131296575]
+style:Widget_AppCompat_ActionButton_CloseMode:2131296546 => [style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362, style:Widget_AppCompat_Light_ActionButton_CloseMode:2131296576]
+style:Widget_AppCompat_ActionButton_Overflow:2131296547 => [style:Base_Widget_AppCompat_ActionButton_Overflow:2131296363, style:Widget_AppCompat_Light_ActionButton_Overflow:2131296577]
+style:Widget_AppCompat_ActionMode:2131296548 => [style:Base_Widget_AppCompat_ActionMode:2131296450, style:Widget_AppCompat_Light_ActionMode_Inverse:2131296578]
+style:Widget_AppCompat_ActivityChooserView:2131296549 => [style:Base_Widget_AppCompat_ActivityChooserView:2131296451, style:Widget_AppCompat_Light_ActivityChooserView:2131296579]
+style:Widget_AppCompat_AutoCompleteTextView:2131296550 => [style:Base_Widget_AppCompat_AutoCompleteTextView:2131296293, style:Widget_AppCompat_Light_AutoCompleteTextView:2131296580]
+style:Widget_AppCompat_Button:2131296551 => [style:Base_Widget_AppCompat_Button:2131296364]
+style:Widget_AppCompat_ButtonBar:2131296557 => [style:Base_Widget_AppCompat_ButtonBar:2131296368]
+style:Widget_AppCompat_ButtonBar_AlertDialog:2131296558 => [style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453]
+style:Widget_AppCompat_Button_Borderless:2131296552 => [style:Base_Widget_AppCompat_Button_Borderless:2131296365]
+style:Widget_AppCompat_Button_Borderless_Colored:2131296553 => [style:Base_Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296452, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366]
+style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296554 => [style:Base_Widget_AppCompat_Button_ButtonBar_AlertDialog:2131296452]
+style:Widget_AppCompat_Button_Colored:2131296555 => [style:Base_Widget_AppCompat_Button_Colored:2131296408]
+style:Widget_AppCompat_Button_Small:2131296556 => [style:Base_Widget_AppCompat_Button_Small:2131296367]
+style:Widget_AppCompat_CompoundButton_CheckBox:2131296559 => [style:Base_Widget_AppCompat_CompoundButton_CheckBox:2131296369]
+style:Widget_AppCompat_CompoundButton_RadioButton:2131296560 => [style:Base_Widget_AppCompat_CompoundButton_RadioButton:2131296370]
+style:Widget_AppCompat_CompoundButton_Switch:2131296561 => [style:Base_Widget_AppCompat_CompoundButton_Switch:2131296454]
+style:Widget_AppCompat_DrawerArrowToggle:2131296562 => [style:Base_Widget_AppCompat_DrawerArrowToggle:2131296256, attr:colorControlNormal:2130772096]
+style:Widget_AppCompat_DropDownItem_Spinner:2131296563 => [style:RtlOverlay_Widget_AppCompat_Search_DropDown_Text:2131296315, style:Widget_AppCompat_Light_DropDownItem_Spinner:2131296581]
+style:Widget_AppCompat_EditText:2131296564 => [style:Base_Widget_AppCompat_EditText:2131296294]
+style:Widget_AppCompat_ImageButton:2131296565 => [style:Base_Widget_AppCompat_ImageButton:2131296372]
+style:Widget_AppCompat_Light_ActionBar:2131296566 => [style:Base_Widget_AppCompat_Light_ActionBar:2131296456, style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568, style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570, style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574]
+style:Widget_AppCompat_Light_ActionBar_Solid:2131296567 => [style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568]
+style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568 => [style:Widget_AppCompat_Light_ActionBar_Solid:2131296567, style:Widget_AppCompat_Light_ActionBar:2131296566, style:Widget_AppCompat_Light:-1, style:Widget_AppCompat:-1, style:Widget:-1]
+style:Widget_AppCompat_Light_ActionBar_TabBar:2131296569 => [style:Base_Widget_AppCompat_Light_ActionBar_TabBar:2131296458, style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570]
+style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570 => [style:Widget_AppCompat_Light_ActionBar_TabBar:2131296569, style:Widget_AppCompat_Light_ActionBar:2131296566, style:Widget_AppCompat_Light:-1, style:Widget_AppCompat:-1, style:Widget:-1]
+style:Widget_AppCompat_Light_ActionBar_TabText:2131296571 => [style:Base_Widget_AppCompat_Light_ActionBar_TabText:2131296373]
+style:Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296572 => [style:Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296374]
+style:Widget_AppCompat_Light_ActionBar_TabView:2131296573 => [style:Base_Widget_AppCompat_Light_ActionBar_TabView:2131296375, style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574]
+style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574 => [style:Widget_AppCompat_Light_ActionBar_TabView:2131296573, style:Widget_AppCompat_Light_ActionBar:2131296566, style:Widget_AppCompat_Light:-1, style:Widget_AppCompat:-1, style:Widget:-1]
+style:Widget_AppCompat_Light_ActionButton:2131296575 => [style:Widget_AppCompat_ActionButton:2131296545]
+style:Widget_AppCompat_Light_ActionButton_CloseMode:2131296576 => [style:Widget_AppCompat_ActionButton_CloseMode:2131296546]
+style:Widget_AppCompat_Light_ActionButton_Overflow:2131296577 => [style:Widget_AppCompat_ActionButton_Overflow:2131296547]
+style:Widget_AppCompat_Light_ActionMode_Inverse:2131296578 => [style:Widget_AppCompat_ActionMode:2131296548]
+style:Widget_AppCompat_Light_ActivityChooserView:2131296579 => [style:Widget_AppCompat_ActivityChooserView:2131296549]
+style:Widget_AppCompat_Light_AutoCompleteTextView:2131296580 => [style:Widget_AppCompat_AutoCompleteTextView:2131296550]
+style:Widget_AppCompat_Light_DropDownItem_Spinner:2131296581 => [style:Widget_AppCompat_DropDownItem_Spinner:2131296563]
+style:Widget_AppCompat_Light_ListPopupWindow:2131296582 => [style:Widget_AppCompat_ListPopupWindow:2131296589]
+style:Widget_AppCompat_Light_ListView_DropDown:2131296583 => [style:Widget_AppCompat_ListView_DropDown:2131296591]
+style:Widget_AppCompat_Light_PopupMenu:2131296584 => [style:Base_Widget_AppCompat_Light_PopupMenu:2131296376]
+style:Widget_AppCompat_Light_PopupMenu_Overflow:2131296585 => [style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377]
+style:Widget_AppCompat_Light_SearchView:2131296586 => [style:Widget_AppCompat_SearchView:2131296601]
+style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131296587 => [style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607]
+style:Widget_AppCompat_ListMenuView:2131296588 => [style:Base_Widget_AppCompat_ListMenuView:2131296459]
+style:Widget_AppCompat_ListPopupWindow:2131296589 => [style:Base_Widget_AppCompat_Light_PopupMenu:2131296376, style:Base_Widget_AppCompat_PopupMenu:2131296382, style:Widget_AppCompat_Light_ListPopupWindow:2131296582, style:Base_Widget_AppCompat_ListPopupWindow:2131296378]
+style:Widget_AppCompat_ListView:2131296590 => [style:Base_Widget_AppCompat_ListView:2131296379]
+style:Widget_AppCompat_ListView_DropDown:2131296591 => [style:Widget_AppCompat_Light_ListView_DropDown:2131296583, style:Base_Widget_AppCompat_ListView_DropDown:2131296380]
+style:Widget_AppCompat_ListView_Menu:2131296592 => [style:Base_Widget_AppCompat_ListView_Menu:2131296381]
+style:Widget_AppCompat_NotificationActionContainer:2131296400 => [drawable:notification_action_background:2130837587]
+style:Widget_AppCompat_NotificationActionText:2131296401 => [color:secondary_text_default_material_light:2131427387, dimen:notification_action_text_size:2131230814]
+style:Widget_AppCompat_PopupMenu:2131296593 => [style:Base_Widget_AppCompat_PopupMenu:2131296382]
+style:Widget_AppCompat_PopupMenu_Overflow:2131296594 => [style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383]
+style:Widget_AppCompat_PopupWindow:2131296595 => [style:Base_Widget_AppCompat_PopupWindow:2131296460]
+style:Widget_AppCompat_ProgressBar:2131296596 => [style:Base_Widget_AppCompat_ProgressBar:2131296284]
+style:Widget_AppCompat_ProgressBar_Horizontal:2131296597 => [style:Base_Widget_AppCompat_ProgressBar_Horizontal:2131296285]
+style:Widget_AppCompat_RatingBar:2131296598 => [style:Base_Widget_AppCompat_RatingBar:2131296384]
+style:Widget_AppCompat_RatingBar_Indicator:2131296599 => [style:Base_Widget_AppCompat_RatingBar_Indicator:2131296409]
+style:Widget_AppCompat_RatingBar_Small:2131296600 => [style:Base_Widget_AppCompat_RatingBar_Small:2131296410]
+style:Widget_AppCompat_SearchView:2131296601 => [style:Widget_AppCompat_Light_SearchView:2131296586, style:Base_Widget_AppCompat_SearchView:2131296461]
+style:Widget_AppCompat_SearchView_ActionBar:2131296602 => [style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462]
+style:Widget_AppCompat_SeekBar:2131296603 => [style:Base_Widget_AppCompat_SeekBar:2131296385]
+style:Widget_AppCompat_SeekBar_Discrete:2131296604 => [style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463]
+style:Widget_AppCompat_Spinner:2131296605 => [style:Base_Widget_AppCompat_Spinner:2131296386, style:Widget_AppCompat_Spinner_DropDown:2131296606, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607]
+style:Widget_AppCompat_Spinner_DropDown:2131296606 => [style:Widget_AppCompat_Spinner:2131296605, style:Widget_AppCompat:-1, style:Widget:-1, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607]
+style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607 => [style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131296587, style:Widget_AppCompat_Spinner_DropDown:2131296606, style:Widget_AppCompat_Spinner:2131296605, style:Widget_AppCompat:-1, style:Widget:-1]
+style:Widget_AppCompat_Spinner_Underlined:2131296608 => [style:Base_Widget_AppCompat_Spinner_Underlined:2131296259]
+style:Widget_AppCompat_TextView_SpinnerItem:2131296609 => [style:Base_Widget_AppCompat_TextView_SpinnerItem:2131296387]
+style:Widget_AppCompat_Toolbar:2131296610 => [style:Base_Widget_AppCompat_Toolbar:2131296464]
+style:Widget_AppCompat_Toolbar_Button_Navigation:2131296611 => [style:Base_Widget_AppCompat_Toolbar_Button_Navigation:2131296388]
+style:AppTheme:2131296420 => [style:Theme_AppCompat_Light_DarkActionBar:2131296526, color:colorPrimary:2131427352, color:colorPrimaryDark:2131427353, color:colorAccent:2131427351]
+style:Base_TextAppearance:-1 => [style:Base_TextAppearance_AppCompat_Body1:2131296320, style:Base_TextAppearance_AppCompat_Body2:2131296321, style:Base_TextAppearance_AppCompat_Button:2131296295, style:Base_TextAppearance_AppCompat_Caption:2131296322, style:Base_TextAppearance_AppCompat_Display1:2131296323, style:Base_TextAppearance_AppCompat_Display2:2131296324, style:Base_TextAppearance_AppCompat_Display3:2131296325, style:Base_TextAppearance_AppCompat_Display4:2131296326, style:Base_TextAppearance_AppCompat_Headline:2131296327, style:Base_TextAppearance_AppCompat_Inverse:2131296267, style:Base_TextAppearance_AppCompat_Large:2131296328, style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268, style:Base_TextAppearance_AppCompat_Medium:2131296331, style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269, style:Base_TextAppearance_AppCompat_Menu:2131296332, style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333, style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334, style:Base_TextAppearance_AppCompat_Small:2131296335, style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270, style:Base_TextAppearance_AppCompat_Subhead:2131296336, style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271, style:Base_TextAppearance_AppCompat_Title:2131296337, style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272, style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413]
+style:Base:-1 => [style:Base_TextAppearance_AppCompat_Body1:2131296320, style:Base_TextAppearance_AppCompat_Body2:2131296321, style:Base_TextAppearance_AppCompat_Button:2131296295, style:Base_TextAppearance_AppCompat_Caption:2131296322, style:Base_TextAppearance_AppCompat_Display1:2131296323, style:Base_TextAppearance_AppCompat_Display2:2131296324, style:Base_TextAppearance_AppCompat_Display3:2131296325, style:Base_TextAppearance_AppCompat_Display4:2131296326, style:Base_TextAppearance_AppCompat_Headline:2131296327, style:Base_TextAppearance_AppCompat_Inverse:2131296267, style:Base_TextAppearance_AppCompat_Large:2131296328, style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268, style:Base_TextAppearance_AppCompat_Medium:2131296331, style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269, style:Base_TextAppearance_AppCompat_Menu:2131296332, style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333, style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334, style:Base_TextAppearance_AppCompat_Small:2131296335, style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270, style:Base_TextAppearance_AppCompat_Subhead:2131296336, style:Base_TextAppearance_AppCompat_Subhead_Inverse:2131296271, style:Base_TextAppearance_AppCompat_Title:2131296337, style:Base_TextAppearance_AppCompat_Title_Inverse:2131296272, style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413, style:Base_Theme_AppCompat_Dialog_Alert:2131296274, style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432, style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277, style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278, style:Base_ThemeOverlay_AppCompat_ActionBar:2131296436, style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438, style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280, style:Base_Widget_AppCompat_ActionBar_Solid:2131296448, style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362, style:Base_Widget_AppCompat_Button_Borderless:2131296365, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366, style:Base_Widget_AppCompat_Button_Colored:2131296408, style:Base_Widget_AppCompat_Button_Small:2131296367, style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453, style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377, style:Base_Widget_AppCompat_ListView_DropDown:2131296380, style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383, style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462, style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463, style:Base_Widget_AppCompat_Spinner_Underlined:2131296259, style:Base_Widget_AppCompat_ListView_Menu:2131296381]
+style:Base_TextAppearance_AppCompat_Widget:-1 => [style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413]
+style:Base_Theme:-1 => [style:Base_Theme_AppCompat_Dialog_Alert:2131296274, style:Base_Theme_AppCompat_Dialog_FixedSize:2131296432, style:Base_Theme_AppCompat_Dialog_MinWidth:2131296275, style:Base_Theme_AppCompat_Light_Dialog_Alert:2131296277, style:Base_Theme_AppCompat_Light_Dialog_FixedSize:2131296434, style:Base_Theme_AppCompat_Light_Dialog_MinWidth:2131296278]
+style:Base_ThemeOverlay:-1 => [style:Base_ThemeOverlay_AppCompat_ActionBar:2131296436, style:Base_ThemeOverlay_AppCompat_Dark_ActionBar:2131296438, style:Base_ThemeOverlay_AppCompat_Dialog_Alert:2131296280]
+style:Base_Widget_AppCompat:-1 => [style:Base_Widget_AppCompat_ActionBar_Solid:2131296448, style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362, style:Base_Widget_AppCompat_Button_Borderless:2131296365, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366, style:Base_Widget_AppCompat_Button_Colored:2131296408, style:Base_Widget_AppCompat_Button_Small:2131296367, style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453, style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377, style:Base_Widget_AppCompat_ListView_DropDown:2131296380, style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383, style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462, style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463, style:Base_Widget_AppCompat_Spinner_Underlined:2131296259, style:Base_Widget_AppCompat_ListView_Menu:2131296381]
+style:Base_Widget:-1 => [style:Base_Widget_AppCompat_ActionBar_Solid:2131296448, style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362, style:Base_Widget_AppCompat_Button_Borderless:2131296365, style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366, style:Base_Widget_AppCompat_Button_Colored:2131296408, style:Base_Widget_AppCompat_Button_Small:2131296367, style:Base_Widget_AppCompat_ButtonBar_AlertDialog:2131296453, style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377, style:Base_Widget_AppCompat_ListView_DropDown:2131296380, style:Base_Widget_AppCompat_PopupMenu_Overflow:2131296383, style:Base_Widget_AppCompat_SearchView_ActionBar:2131296462, style:Base_Widget_AppCompat_SeekBar_Discrete:2131296463, style:Base_Widget_AppCompat_Spinner_Underlined:2131296259, style:Base_Widget_AppCompat_ListView_Menu:2131296381]
+style:Base_Widget_AppCompat_Light:-1 => [style:Base_Widget_AppCompat_Light_ActionBar_Solid:2131296457, style:Base_Widget_AppCompat_Light_PopupMenu_Overflow:2131296377]
+style:Platform_ThemeOverlay:-1 => [style:Platform_ThemeOverlay_AppCompat_Dark:2131296390, style:Platform_ThemeOverlay_AppCompat_Light:2131296391]
+style:Platform:-1 => [style:Platform_ThemeOverlay_AppCompat_Dark:2131296390, style:Platform_ThemeOverlay_AppCompat_Light:2131296391]
+style:TextAppearance:-1 => [style:TextAppearance_AppCompat_Notification:2131296298, style:TextAppearance_AppCompat_Notification_Info:2131296394, style:TextAppearance_AppCompat_Notification_Info_Media:2131296395, style:TextAppearance_AppCompat_Notification_Media:2131296396, style:TextAppearance_AppCompat_Notification_Time:2131296397, style:TextAppearance_AppCompat_Notification_Time_Media:2131296398, style:TextAppearance_AppCompat_Notification_Title:2131296299, style:TextAppearance_AppCompat_Notification_Title_Media:2131296399, style:TextAppearance_StatusBar_EventContent_Info:2131296301, style:TextAppearance_StatusBar_EventContent_Line2:2131296302, style:TextAppearance_StatusBar_EventContent_Time:2131296303]
+style:Theme:-1 => [style:Theme_AppCompat_Light_NoActionBar:2131296531, style:Theme_AppCompat_NoActionBar:2131296532]
+style:Widget_AppCompat_Light:-1 => [style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568, style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570, style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574]
+style:Widget_AppCompat:-1 => [style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568, style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570, style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574, style:Widget_AppCompat_Spinner_DropDown:2131296606, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607]
+style:Widget:-1 => [style:Widget_AppCompat_Light_ActionBar_Solid_Inverse:2131296568, style:Widget_AppCompat_Light_ActionBar_TabBar_Inverse:2131296570, style:Widget_AppCompat_Light_ActionBar_TabView_Inverse:2131296574, style:Widget_AppCompat_Spinner_DropDown:2131296606, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131296607]
+style:TextAppearance_StatusBar:-1 => [style:TextAppearance_StatusBar_EventContent_Info:2131296301, style:TextAppearance_StatusBar_EventContent_Line2:2131296302, style:TextAppearance_StatusBar_EventContent_Time:2131296303]
+
+The root reachable resources are:
+string:tray__authority:2131165218,
+   styleable:RecyclerView:-1,
+   style:Base_CardView:2131296425,
+   attr:actionBarPopupTheme:2130772027,
+   attr:actionBarSize:2130772032,
+   attr:actionBarStyle:2130772028,
+   attr:actionBarTabStyle:2130772022,
+   attr:actionBarTabTextStyle:2130772024,
+   attr:actionDropDownStyle:2130772056,
+   attr:actionModeStyle:2130772037,
+   attr:actionOverflowButtonStyle:2130772025,
+   attr:actionOverflowMenuStyle:2130772026,
+   attr:alpha:2130772137,
+   attr:autoCompleteTextViewStyle:2130772111,
+   attr:colorAccent:2130772095,
+   attr:colorButtonNormal:2130772099,
+   attr:colorControlActivated:2130772097,
+   attr:colorControlHighlight:2130772098,
+   attr:colorControlNormal:2130772096,
+   attr:dropDownListViewStyle:2130772085,
+   attr:listMenuViewStyle:2130772124,
+   attr:listPopupWindowStyle:2130772086,
+   attr:searchViewStyle:2130772079,
+   attr:textColorSearchUrl:2130772078,
+   attr:toolbarNavigationButtonStyle:2130772070,
+   attr:toolbarStyle:2130772069,
+   bool:abc_action_bar_embed_tabs:2131361792,
+   bool:abc_config_showMenuShortcutsWhenKeyboardPresent:2131361796,
+   color:abc_tint_btn_checkable:2131427408,
+   color:abc_tint_default:2131427409,
+   color:abc_tint_edittext:2131427410,
+   color:abc_tint_seek_thumb:2131427411,
+   color:abc_tint_spinner:2131427412,
+   color:abc_tint_switch_thumb:2131427413,
+   color:abc_tint_switch_track:2131427414,
+   dimen:abc_action_bar_stacked_max_height:2131230745,
+   dimen:abc_action_bar_stacked_tab_max_width:2131230746,
+   dimen:abc_cascading_menus_min_smallest_width:2131230756,
+   dimen:abc_config_prefDialogWidth:2131230725,
+   dimen:abc_dropdownitem_icon_width:2131230767,
+   dimen:abc_dropdownitem_text_padding_left:2131230768,
+   dimen:abc_search_view_preferred_height:2131230777,
+   dimen:abc_search_view_preferred_width:2131230778,
+   drawable:abc_ab_share_pack_mtrl_alpha:2130837504,
+   drawable:abc_btn_borderless_material:2130837506,
+   drawable:abc_btn_check_material:2130837507,
+   drawable:abc_btn_colored_material:2130837510,
+   drawable:abc_btn_default_mtrl_shape:2130837511,
+   drawable:abc_btn_radio_material:2130837512,
+   drawable:abc_cab_background_internal_bg:2130837517,
+   drawable:abc_cab_background_top_material:2130837518,
+   drawable:abc_cab_background_top_mtrl_alpha:2130837519,
+   drawable:abc_dialog_material_background:2130837521,
+   drawable:abc_edit_text_material:2130837522,
+   drawable:abc_ic_commit_search_api_mtrl_alpha:2130837526,
+   drawable:abc_ic_menu_copy_mtrl_am_alpha:2130837528,
+   drawable:abc_ic_menu_cut_mtrl_alpha:2130837529,
+   drawable:abc_ic_menu_paste_mtrl_am_alpha:2130837531,
+   drawable:abc_ic_menu_selectall_mtrl_alpha:2130837532,
+   drawable:abc_ic_menu_share_mtrl_alpha:2130837533,
+   drawable:abc_list_divider_mtrl_alpha:2130837544,
+   drawable:abc_menu_hardkey_panel_mtrl_mult:2130837555,
+   drawable:abc_popup_background_mtrl_mult:2130837556,
+   drawable:abc_ratingbar_indicator_material:2130837557,
+   drawable:abc_ratingbar_material:2130837558,
+   drawable:abc_ratingbar_small_material:2130837559,
+   drawable:abc_seekbar_thumb_material:2130837565,
+   drawable:abc_seekbar_tick_mark_material:2130837566,
+   drawable:abc_seekbar_track_material:2130837567,
+   drawable:abc_spinner_mtrl_am_alpha:2130837568,
+   drawable:abc_spinner_textfield_background_material:2130837569,
+   drawable:abc_switch_thumb_material:2130837570,
+   drawable:abc_switch_track_mtrl_alpha:2130837571,
+   drawable:abc_tab_indicator_material:2130837572,
+   drawable:abc_text_cursor_material:2130837574,
+   drawable:abc_text_select_handle_left_mtrl_dark:2130837575,
+   drawable:abc_text_select_handle_left_mtrl_light:2130837576,
+   drawable:abc_text_select_handle_middle_mtrl_dark:2130837577,
+   drawable:abc_text_select_handle_middle_mtrl_light:2130837578,
+   drawable:abc_text_select_handle_right_mtrl_dark:2130837579,
+   drawable:abc_text_select_handle_right_mtrl_light:2130837580,
+   drawable:abc_textfield_activated_mtrl_alpha:2130837581,
+   drawable:abc_textfield_default_mtrl_alpha:2130837582,
+   drawable:abc_textfield_search_activated_mtrl_alpha:2130837583,
+   drawable:abc_textfield_search_default_mtrl_alpha:2130837584,
+   drawable:abc_textfield_search_material:2130837585,
+   drawable:abc_vector_test:2130837586,
+   id:action_bar:2131492936,
+   id:action_bar_activity_content:2131492864,
+   id:action_bar_container:2131492935,
+   id:action_bar_subtitle:2131492902,
+   id:action_bar_title:2131492901,
+   id:action_context_bar:2131492937,
+   id:buttonPanel:2131492911,
+   id:contentPanel:2131492914,
+   id:customPanel:2131492920,
+   id:edit_query:2131492938,
+   id:icon:2131492909,
+   id:list_item:2131492908,
+   id:search_button:2131492941,
+   id:search_close_btn:2131492946,
+   id:search_edit_frame:2131492942,
+   id:search_go_btn:2131492948,
+   id:search_mag_icon:2131492943,
+   id:search_plate:2131492944,
+   id:search_src_text:2131492945,
+   id:search_voice_btn:2131492949,
+   id:shortcut:2131492928,
+   id:spacer:2131492912,
+   id:split_action_bar:2131492872,
+   id:submenuarrow:2131492930,
+   id:submit_area:2131492947,
+   id:title:2131492910,
+   id:topPanel:2131492922,
+   layout:abc_action_bar_title_item:2130968576,
+   layout:abc_action_menu_item_layout:2130968579,
+   layout:abc_action_menu_layout:2130968580,
+   layout:abc_action_mode_close_item_material:2130968582,
+   layout:abc_activity_chooser_view_list_item:2130968584,
+   layout:abc_list_menu_item_checkbox:2130968590,
+   layout:abc_list_menu_item_icon:2130968591,
+   layout:abc_list_menu_item_radio:2130968593,
+   layout:abc_popup_menu_header_item_layout:2130968594,
+   layout:abc_popup_menu_item_layout:2130968595,
+   layout:abc_search_dropdown_item_icons_2line:2130968600,
+   layout:abc_search_view:2130968601,
+   layout:support_simple_spinner_dropdown_item:2130968621,
+   string:abc_action_bar_up_description:2131165187,
+   string:abc_activity_chooser_view_see_all:2131165190,
+   string:abc_activitychooserview_choose_application:2131165191,
+   style:Base_AlertDialog_AppCompat:2131296421,
+   style:Base_Animation_AppCompat_Dialog:2131296423,
+   style:Base_Animation_AppCompat_DropDownUp:2131296424,
+   style:Base_DialogWindowTitleBackground_AppCompat:2131296427,
+   style:Base_DialogWindowTitle_AppCompat:2131296426,
+   style:Base_TextAppearance_AppCompat:2131296319,
+   style:Base_TextAppearance_AppCompat_Body1:2131296320,
+   style:Base_TextAppearance_AppCompat_Body2:2131296321,
+   style:Base_TextAppearance_AppCompat_Button:2131296295,
+   style:Base_TextAppearance_AppCompat_Caption:2131296322,
+   style:Base_TextAppearance_AppCompat_Display1:2131296323,
+   style:Base_TextAppearance_AppCompat_Display2:2131296324,
+   style:Base_TextAppearance_AppCompat_Display3:2131296325,
+   style:Base_TextAppearance_AppCompat_Display4:2131296326,
+   style:Base_TextAppearance_AppCompat_Headline:2131296327,
+   style:Base_TextAppearance_AppCompat_Inverse:2131296267,
+   style:Base_TextAppearance_AppCompat_Large:2131296328,
+   style:Base_TextAppearance_AppCompat_Large_Inverse:2131296268,
+   style:Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131296329,
+   style:Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131296330,
+   style:Base_TextAppearance_AppCompat_Medium:2131296331,
+   style:Base_TextAppearance_AppCompat_Medium_Inverse:2131296269,
+   style:Base_TextAppearance_AppCompat_Menu:2131296332,
+   style:Base_TextAppearance_AppCompat_SearchResult:2131296428,
+   style:Base_TextAppearance_AppCompat_SearchResult_Subtitle:2131296333,
+   style:Base_TextAppearance_AppCompat_SearchResult_Title:2131296334,
+   style:Base_TextAppearance_AppCompat_Small:2131296335,
+   style:Base_TextAppearance_AppCompat_Small_Inverse:2131296270,
+   style:Base_TextAppearance_AppCompat_Subhead:2131296336,
+   style:Base_TextAppearance_AppCompat_Title:2131296337,
+   style:Base_TextAppearance_AppCompat_Widget_ActionBar_Menu:2131296404,
+   style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle:2131296338,
+   style:Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse:2131296339,
+   style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title:2131296340,
+   style:Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse:2131296341,
+   style:Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle:2131296342,
+   style:Base_TextAppearance_AppCompat_Widget_ActionMode_Title:2131296343,
+   style:Base_TextAppearance_AppCompat_Widget_Button:2131296344,
+   style:Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored:2131296412,
+   style:Base_TextAppearance_AppCompat_Widget_Button_Colored:2131296413,
+   style:Base_TextAppearance_AppCompat_Widget_Button_Inverse:2131296405,
+   style:Base_TextAppearance_AppCompat_Widget_DropDownItem:2131296429,
+   style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Large:2131296346,
+   style:Base_TextAppearance_AppCompat_Widget_PopupMenu_Small:2131296347,
+   style:Base_TextAppearance_AppCompat_Widget_Switch:2131296348,
+   style:Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem:2131296349,
+   style:Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item:2131296430,
+   style:Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle:2131296350,
+   style:Base_TextAppearance_Widget_AppCompat_Toolbar_Title:2131296351,
+   style:Base_Theme_AppCompat_CompactMenu:2131296431,
+   style:Base_V7_Widget_AppCompat_AutoCompleteTextView:2131296445,
+   style:Base_V7_Widget_AppCompat_EditText:2131296446,
+   style:Base_Widget_AppCompat_ActionBar:2131296447,
+   style:Base_Widget_AppCompat_ActionBar_TabBar:2131296449,
+   style:Base_Widget_AppCompat_ActionBar_TabText:2131296359,
+   style:Base_Widget_AppCompat_ActionBar_TabView:2131296360,
+   style:Base_Widget_AppCompat_ActionButton:2131296361,
+   style:Base_Widget_AppCompat_ActionButton_CloseMode:2131296362,
+   style:Base_Widget_AppCompat_ActionButton_Overflow:2131296363,
+   style:Base_Widget_AppCompat_ActionMode:2131296450,
+   style:Base_Widget_AppCompat_ActivityChooserView:2131296451,
+   style:Base_Widget_AppCompat_AutoCompleteTextView:2131296293,
+   style:Base_Widget_AppCompat_Button:2131296364,
+   style:Base_Widget_AppCompat_ButtonBar:2131296368,
+   style:Base_Widget_AppCompat_Button_Borderless:2131296365,
+   style:Base_Widget_AppCompat_Button_Borderless_Colored:2131296366,
+   style:Base_Widget_AppCompat_Button_Colored:2131296408,
+   style:Base_Widget_AppCompat_Button_Small:2131296367,
+   style:Base_Widget_AppCompat_CompoundButton_CheckBox:2131296369,
+   style:Base_Widget_AppCompat_CompoundButton_RadioButton:2131296370,
+   style:Base_Widget_AppCompat_CompoundButton_Switch:2131296454,
+   style:Base_Widget_AppCompat_DrawerArrowToggle_Common:2131296455,
+   style:Base_Widget_AppCompat_DropDownItem_Spinner:2131296371,
+   style:Base_Widget_AppCompat_EditText:2131296294,
+   style:Base_Widget_AppCompat_ImageButton:2131296372,
+   style:Base_Widget_AppCompat_Light_ActionBar_TabText:2131296373,
+   style:Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse:2131296374,
+   style:Base_Widget_AppCompat_Light_ActionBar_TabView:2131296375,
+   style:Base_Widget_AppCompat_Light_PopupMenu:2131296376,
+   style:Base_Widget_AppCompat_ListMenuView:2131296459,
+   style:Base_Widget_AppCompat_ListPopupWindow:2131296378,
+   style:Base_Widget_AppCompat_ListView:2131296379,
+   style:Base_Widget_AppCompat_ListView_DropDown:2131296380,
+   style:Base_Widget_AppCompat_ListView_Menu:2131296381,
+   style:Base_Widget_AppCompat_PopupMenu:2131296382,
+   style:Base_Widget_AppCompat_PopupWindow:2131296460,
+   style:Base_Widget_AppCompat_ProgressBar:2131296284,
+   style:Base_Widget_AppCompat_ProgressBar_Horizontal:2131296285,
+   style:Base_Widget_AppCompat_RatingBar:2131296384,
+   style:Base_Widget_AppCompat_RatingBar_Indicator:2131296409,
+   style:Base_Widget_AppCompat_RatingBar_Small:2131296410,
+   style:Base_Widget_AppCompat_SearchView:2131296461,
+   style:Base_Widget_AppCompat_SeekBar:2131296385,
+   style:Base_Widget_AppCompat_Spinner:2131296386,
+   style:Base_Widget_AppCompat_Spinner_Underlined:2131296259,
+   style:Base_Widget_AppCompat_TextView_SpinnerItem:2131296387,
+   style:Base_Widget_AppCompat_Toolbar:2131296464,
+   style:Base_Widget_AppCompat_Toolbar_Button_Navigation:2131296388,
+   style:Platform_AppCompat:2131296286,
+   style:Platform_AppCompat_Light:2131296287,
+   style:Platform_ThemeOverlay_AppCompat:2131296389,
+   style:Platform_V11_AppCompat:2131296288,
+   style:Platform_V11_AppCompat_Light:2131296289,
+   style:Platform_V21_AppCompat:2131296392,
+   style:Platform_V21_AppCompat_Light:2131296393,
+   style:Platform_V25_AppCompat:2131296414,
+   style:Platform_V25_AppCompat_Light:2131296415,
+   style:Platform_Widget_AppCompat_Spinner:2131296290,
+   style:RtlOverlay_Widget_AppCompat_ActionBar_TitleItem:2131296306,
+   style:RtlOverlay_Widget_AppCompat_DialogTitle_Icon:2131296307,
+   style:RtlOverlay_Widget_AppCompat_PopupMenuItem:2131296308,
+   style:RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup:2131296309,
+   style:RtlOverlay_Widget_AppCompat_PopupMenuItem_Text:2131296310,
+   style:RtlOverlay_Widget_AppCompat_SearchView_MagIcon:2131296316,
+   style:RtlOverlay_Widget_AppCompat_Search_DropDown:2131296311,
+   style:RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1:2131296312,
+   style:RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2:2131296313,
+   style:RtlOverlay_Widget_AppCompat_Search_DropDown_Query:2131296314,
+   style:RtlUnderlay_Widget_AppCompat_ActionButton:2131296317,
+   style:TextAppearance_AppCompat_Notification:2131296298,
+   style:TextAppearance_AppCompat_Notification_Info:2131296394,
+   style:TextAppearance_AppCompat_Notification_Time:2131296397,
+   style:TextAppearance_AppCompat_Notification_Title:2131296299,
+   style:TextAppearance_StatusBar_EventContent:2131296300,
+   style:TextAppearance_StatusBar_EventContent_Info:2131296301,
+   style:TextAppearance_StatusBar_EventContent_Line2:2131296302,
+   style:TextAppearance_StatusBar_EventContent_Time:2131296303,
+   style:TextAppearance_StatusBar_EventContent_Title:2131296304,
+   style:Theme_AppCompat_Light:2131296525,
+   style:Widget_AppCompat_NotificationActionContainer:2131296400,
+   style:Widget_AppCompat_NotificationActionText:2131296401,
+   styleable:ActionBar:-1,
+   styleable:ActionBarLayout:-1,
+   styleable:ActionMenuItemView:-1,
+   styleable:ActionMode:-1,
+   styleable:AppCompatImageView:-1,
+   styleable:AppCompatTextHelper:-1,
+   styleable:ButtonBarLayout:-1,
+   styleable:ColorStateListItem:-1,
+   styleable:LinearLayoutCompat:-1,
+   styleable:LinearLayoutCompat_Layout:-1,
+   styleable:ListPopupWindow:-1,
+   styleable:MenuGroup:-1,
+   styleable:MenuItem:-1,
+   styleable:MenuView:-1,
+   styleable:PopupWindow:-1,
+   styleable:RecycleListView:-1,
+   styleable:SearchView:-1,
+   styleable:Spinner:-1,
+   styleable:TextAppearance:-1,
+   styleable:Toolbar:-1,
+   styleable:ViewBackgroundHelper:-1,
+   styleable:ViewStubCompat:-1,
+   mipmap:ic_launcher:2130903040,
+   string:app_name:2131165217,
+   style:AppTheme:2131296420,
+   xml:backup_scheme:2131099648
+Skipped unused resource res/anim/abc_fade_in.xml: 396 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/anim/abc_fade_out.xml: 396 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/anim/abc_slide_in_bottom.xml: 400 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/anim/abc_slide_in_top.xml: 400 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/anim/abc_slide_out_bottom.xml: 400 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/anim/abc_slide_out_top.xml: 400 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_low_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal.9.png: 212 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notification_bg_normal_pressed.9.png: 225 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-hdpi-v4/notify_panel_notification_icon_bg.png: 93 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_low_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal.9.png: 215 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notification_bg_normal_pressed.9.png: 223 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-mdpi-v4/notify_panel_notification_icon_bg.png: 93 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_low_pressed.9.png: 252 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal.9.png: 221 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png: 247 bytes (replaced with small dummy file of size 77 bytes)
+Skipped unused resource res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png: 99 bytes (replaced with small dummy file of size 67 bytes)
+Skipped unused resource res/drawable/notification_bg.xml: 644 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_bg_low.xml: 644 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_icon_background.xml: 436 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/drawable/notification_tile_bg.xml: 380 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_media_action.xml: 616 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_media_cancel_action.xml: 792 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_template_big_media.xml: 1652 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_template_big_media_custom.xml: 2864 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_template_big_media_narrow.xml: 1668 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v11/notification_template_big_media_narrow_custom.xml: 2924 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v16/notification_template_custom_big.xml: 3020 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/abc_dialog_title_material.xml: 1156 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_action.xml: 1272 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_action_tombstone.xml: 1448 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_big_media.xml: 1844 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_big_media_custom.xml: 3144 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_big_media_narrow.xml: 1924 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_big_media_narrow_custom.xml: 3268 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_custom_big.xml: 3216 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_lines_media.xml: 2880 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_media.xml: 1440 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v17/notification_template_media_custom.xml: 2856 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/abc_screen_toolbar.xml: 1632 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_action.xml: 1172 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_action_tombstone.xml: 1348 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_template_custom_big.xml: 2500 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout-v21/notification_template_icon_group.xml: 996 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_action_bar_up_container.xml: 448 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_action_bar_view_list_nav_layout.xml: 396 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_action_mode_bar.xml: 500 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_activity_chooser_view.xml: 1728 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_dialog_title_material.xml: 1112 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_expanded_menu_layout.xml: 396 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_list_menu_item_layout.xml: 1404 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_screen_content_include.xml: 556 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_screen_simple.xml: 872 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_screen_simple_overlay_action_mode.xml: 828 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/abc_screen_toolbar.xml: 1580 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_action.xml: 1212 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_action_tombstone.xml: 1384 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_icon_group.xml: 400 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_lines_media.xml: 2668 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_media.xml: 1348 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_media_custom.xml: 2628 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_part_chronometer.xml: 448 bytes (replaced with small dummy file of size 104 bytes)
+Skipped unused resource res/layout/notification_template_part_time.xml: 448 bytes (replaced with small dummy file of size 104 bytes)
